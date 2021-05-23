@@ -1,0 +1,9 @@
+{% for post in include.posts %}
+    <div class="post-preview">
+        <a href="{{ post.url }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            <h3 class="post-subtitle">{{ post.description }}</h3>
+        </a>
+    </div>
+    <hr>
+{% endfor %}
