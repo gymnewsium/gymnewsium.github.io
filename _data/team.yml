@@ -1,0 +1,105 @@
+-
+  name: |
+    Ivan 
+    Henauer
+  position: Präsident und Fun
+  bio: |
+    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+    Praesent aliquam in tellus eu gravida. 
+    Aliquam varius finibus est, et interdum justo suscipit id. 
+    Etiam dictum feugiat tellus, a semper massa. 
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/ivanovich_300103/
+  image: 2.jpg
+-
+  name: |
+    Linda 
+    Wüthrich
+  position: News
+  bio: |
+    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+    Praesent aliquam in tellus eu gravida. 
+    Aliquam varius finibus est, et interdum justo suscipit id. 
+    Etiam dictum feugiat tellus, a semper massa. 
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/_linda__w_/
+  image: 3.jpg
+-
+  name: |
+    Matthew
+    Haldimann
+  position: Website und Allgemeinwissen
+  bio: |
+    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+    Praesent aliquam in tellus eu gravida. 
+    Aliquam varius finibus est, et interdum justo suscipit id. 
+    Etiam dictum feugiat tellus, a semper massa. 
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/_ma7thew_/
+  image: 2.jpg
+-
+  name: |
+    Merisa
+    Bajramlic
+  position: News und Insta
+  bio: |
+    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+    Praesent aliquam in tellus eu gravida. 
+    Aliquam varius finibus est, et interdum justo suscipit id. 
+    Etiam dictum feugiat tellus, a semper massa. 
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/_m__gymnastic_22/
+  image: 3.jpg
+-
+  name: |
+    Luca
+    Mösch
+  position: Fun
+  bio: |
+    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+    Praesent aliquam in tellus eu gravida. 
+    Aliquam varius finibus est, et interdum justo suscipit id. 
+    Etiam dictum feugiat tellus, a semper massa. 
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/luca_3537/
+  image: 2.jpg
+-
+  name: |
+    Nadja
+    Bühler
+  position: Design
+  bio: |
+    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+    Praesent aliquam in tellus eu gravida. 
+    Aliquam varius finibus est, et interdum justo suscipit id. 
+    Etiam dictum feugiat tellus, a semper massa. 
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/nad.ja_bu/
+  image: 3.jpg
+-
+  name: |
+    Mirjam
+    Gurtner
+  position: Politik
+  bio: |
+    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+    Praesent aliquam in tellus eu gravida. 
+    Aliquam varius finibus est, et interdum justo suscipit id. 
+    Etiam dictum feugiat tellus, a semper massa. 
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/olivemitgurke/
+  image: 2.jpg
