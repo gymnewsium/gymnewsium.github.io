@@ -1,7 +1,7 @@
 theme: jekyll-theme-slate
 permalink: /:categories/:title
 url: https://gymnewsium.ch
-pagination: 10
+paginate: 10
 paginate_path: "/archiv/page:num/"
 plugins:
   - jekyll-paginate

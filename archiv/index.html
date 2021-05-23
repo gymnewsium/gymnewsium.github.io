@@ -5,21 +5,46 @@ title: Archiv
 description: Alle bisherigen Zeitungen und Posts
 ---
 
+<style>
+    #paginator a:first-child {
+        display: flex;
+        justify-content: start;
+    }
+    #paginator span {
+        display: flex;
+        justify-content: center;
+    }
+    #paginator a:last-child {
+        display: flex;
+        justify-content: end;
+    }
+</style>
+
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-lg-8">
-            {{ paginator.posts }}
             {% include postlist.html posts=paginator.posts %}
             <div class="clearfix">
-                <div class="btn-group d-xxl-flex" role="group">
+                <div id="paginator" class="btn-group d-xxl-flex" role="group">
                     {% if paginator.previous_page %}
-                        <a href="{{ paginator.previous_page_path }}">
-                            <button class="btn btn-primary" type="button" style="margin-right: 10%;">&lt;-</button>
+                        <a href="{{ paginator.previous_page_path }}" class="flex-fill">
+                            <button class="btn btn-primary" type="button">&lt;-</button>
+                        </a>
+                    {% else %}
+                        <a class="flex-fill">
+                            <button class="btn btn-primary disabled" type="button">&lt;-</button>
                         </a>
                     {% endif %}
+                    <span style="padding: 10px;" class="flex-fill">
+                        Seite {{ paginator.page }} von {{ paginator.total_pages }}
+                    </span>
                     {% if paginator.next_page %}
-                        <a href="{{ paginator.next_page_path }}">
+                        <a href="{{ paginator.next_page_path }}" class="flex-fill">
                             <button class="btn btn-primary" type="button">-&gt;</button>
+                        </a>
+                    {% else %}
+                        <a class="flex-fill">
+                            <button class="btn btn-primary disabled" type="button">-&gt;</button>
                         </a>
                     {% endif %}
                 </div>
