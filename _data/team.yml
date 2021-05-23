@@ -10,7 +10,7 @@
     Etiam dictum feugiat tellus, a semper massa. 
   icons:
     -
-      icon: fab fa-instagram
+      icon: fa fa-instagram
       url: https://www.instagram.com/ivanovich_300103/
   image: 2.jpg
 -
@@ -25,7 +25,7 @@
     Etiam dictum feugiat tellus, a semper massa. 
   icons:
     -
-      icon: fab fa-instagram
+      icon: fa fa-instagram
       url: https://www.instagram.com/_linda__w_/
   image: 3.jpg
 -
@@ -40,7 +40,7 @@
     Etiam dictum feugiat tellus, a semper massa. 
   icons:
     -
-      icon: fab fa-instagram
+      icon: fa fa-instagram
       url: https://www.instagram.com/_ma7thew_/
   image: 2.jpg
 -
@@ -55,7 +55,7 @@
     Etiam dictum feugiat tellus, a semper massa. 
   icons:
     -
-      icon: fab fa-instagram
+      icon: fa fa-instagram
       url: https://www.instagram.com/_m__gymnastic_22/
   image: 3.jpg
 -
@@ -70,7 +70,7 @@
     Etiam dictum feugiat tellus, a semper massa. 
   icons:
     -
-      icon: fab fa-instagram
+      icon: fa fa-instagram
       url: https://www.instagram.com/luca_3537/
   image: 2.jpg
 -
@@ -85,7 +85,7 @@
     Etiam dictum feugiat tellus, a semper massa. 
   icons:
     -
-      icon: fab fa-instagram
+      icon: fa fa-instagram
       url: https://www.instagram.com/nad.ja_bu/
   image: 3.jpg
 -
@@ -100,6 +100,6 @@
     Etiam dictum feugiat tellus, a semper massa. 
   icons:
     -
-      icon: fab fa-instagram
+      icon: fa fa-instagram
       url: https://www.instagram.com/olivemitgurke/
   image: 2.jpg
