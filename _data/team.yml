@@ -90,21 +90,6 @@
   image: 2.jpg
 -
   name: |
-    Mirjam
-    Gurtner
-  position: Politik
-  bio: |
-    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
-    Praesent aliquam in tellus eu gravida. 
-    Aliquam varius finibus est, et interdum justo suscipit id. 
-    Etiam dictum feugiat tellus, a semper massa. 
-  icons:
-    -
-      icon: fa fa-instagram
-      url: https://www.instagram.com/olivemitgurke/
-  image: 2.jpg
--
-  name: |
     Rafael
     Urben
   position: IT und Korrekturlesen
@@ -121,3 +106,18 @@
       icon: fa fa-github
       url: https://www.github.com/rafaelurben/
   image: 3.jpg
+-
+  name: |
+    Mirjam
+    Gurtner
+  position: Politik
+  bio: |
+    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+    Praesent aliquam in tellus eu gravida. 
+    Aliquam varius finibus est, et interdum justo suscipit id. 
+    Etiam dictum feugiat tellus, a semper massa. 
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/olivemitgurke/
+  image: 2.jpg
