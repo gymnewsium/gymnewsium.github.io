@@ -23,7 +23,7 @@ description: Eine monatliche Gymerzeitung
 </header>
 <div class="container">
     <div class="row">
-        <div class="col-md-10 col-lg-8">
+        <div class="col">
             {% assign latest_posts = site.posts | limit:5 %}
             {% include postlist.html posts=latest_posts %}
             <div class="clearfix">
