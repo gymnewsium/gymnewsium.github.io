@@ -2,8 +2,10 @@ language: ruby
 rvm:
   - 2.6.3
 
-install: gem install jekyll html-proofer
-script: jekyll build && htmlproofer ./_site
+before_script:
+ - chmod +x ./script/cibuild
+
+script: ./script/cibuild
 
 addons:
   apt:
