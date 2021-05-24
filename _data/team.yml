@@ -12,7 +12,7 @@
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/ivanovich_300103/
-  image: 3.jpg
+  image: man.jpg
 -
   name: |
     Linda 
@@ -27,7 +27,7 @@
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/_linda__w_/
-  image: 2.jpg
+  image: women.jpg
 -
   name: |
     Matthew
@@ -42,7 +42,7 @@
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/_ma7thew_/
-  image: 3.jpg
+  image: man.jpg
 -
   name: |
     Mirjam
@@ -57,7 +57,7 @@
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/olivemitgurke/
-  image: 2.jpg
+  image: women.jpg
 -
   name: |
     Luca
@@ -72,7 +72,7 @@
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/luca_3537/
-  image: 3.jpg
+  image: man.jpg
 -
   name: |
     Nadja
@@ -87,7 +87,7 @@
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/nad.ja_bu/
-  image: 2.jpg
+  image: women.jpg
 -
   name: |
     Rafael
@@ -108,4 +108,4 @@
     -
       icon: fa fa-linkedin
       url: https://www.linkedin.com/in/rafaelurben/
-  image: 3.jpg
+  image: man.jpg
