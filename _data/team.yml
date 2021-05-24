@@ -105,6 +105,9 @@
     -
       icon: fa fa-github
       url: https://www.github.com/rafaelurben/
+    -
+      icon: fa fa-linkedin
+      url: https://www.linkedin.com/in/rafaelurben/
   image: 3.jpg
 -
   name: |
