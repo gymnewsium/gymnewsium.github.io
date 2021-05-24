@@ -13,11 +13,11 @@ description: Alle bisherigen Zeitungen und Posts
                 <div id="paginator" class="btn-group d-flex" role="group">
                     {% if paginator.previous_page %}
                         <a href="{{ paginator.previous_page_path }}" class="flex-fill d-flex justify-content-start">
-                            <button class="btn btn-primary" type="button">&lt;-</button>
+                            <button class="btn btn-primary" type="button">⇐</button>
                         </a>
                     {% else %}
                         <a class="flex-fill d-flex justify-content-start">
-                            <button class="btn btn-primary disabled" type="button">&lt;-</button>
+                            <button class="btn btn-primary disabled" type="button">⇐</button>
                         </a>
                     {% endif %}
                     <span style="padding: 10px;" class="flex-fill d-flex justify-content-center">
@@ -25,11 +25,11 @@ description: Alle bisherigen Zeitungen und Posts
                     </span>
                     {% if paginator.next_page %}
                         <a href="{{ paginator.next_page_path }}" class="flex-fill d-flex justify-content-end">
-                            <button class="btn btn-primary" type="button">-&gt;</button>
+                            <button class="btn btn-primary" type="button">⇒</button>
                         </a>
                     {% else %}
                         <a class="flex-fill d-flex justify-content-end">
-                            <button class="btn btn-primary disabled" type="button">-&gt;</button>
+                            <button class="btn btn-primary disabled" type="button">⇒</button>
                         </a>
                     {% endif %}
                 </div>
