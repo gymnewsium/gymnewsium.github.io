@@ -5,3 +5,4 @@ paginate: 10
 paginate_path: "/archiv/page:num/"
 plugins:
   - jekyll-paginate
+exclude: [vendor]
