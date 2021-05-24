@@ -1,0 +1,47 @@
+/* Footer */
+
+footer {
+    margin-top: 3rem;
+    padding: 3rem 0;
+    background-color: black;
+    color: white;
+}
+
+footer .nav-links {
+    padding: 0;
+    margin: 0
+}
+
+footer .nav-links li {
+    display: inline-block
+}
+
+footer .nav-links li a {
+    padding: 10px;
+    color: white;
+}
+
+footer .nav-links li a:hover {
+    color: #df588a;
+}
+
+footer .social ul li {
+    display: inline-block;
+}
+
+footer .social ul li a {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer .social ul li a i {
+    color: white;
+}
+
+footer .social ul li a i:hover {
+    color: #5865F2;
+}
+
+footer .copyright {
+    color: white;
+}
