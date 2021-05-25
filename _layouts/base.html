@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="/assets/css/Team-Boxed.css">
     <link rel="stylesheet" href="/assets/css/customstyle.css">
 
+    {% if page.noindex %}
+    <meta name="robots" content="noindex">
+    {% endif %}
+
     {% if page.header_image %}
     <style>
         #header {
