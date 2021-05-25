@@ -1,0 +1,10 @@
+---
+---
+
+User-agent: *
+
+Sitemap: {{ site.url }}/sitemap.xml
+
+Disallow: /*.html$
+Disallow: */index$
+Disallow: /404
