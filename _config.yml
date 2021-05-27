@@ -7,3 +7,5 @@ plugins:
   - jekyll-paginate
   - jekyll-last-modified
 exclude: [vendor]
+title: gymNEWSium
+description: Die Gymerzeitung aus Burgdorf
