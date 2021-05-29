@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: announcements
+category: announcements
 title: Die erste Ausgabe
 description: "Im Juni 2021 ist es soweit: Die erste Ausgabe der gymNEWSium Zeitung erscheint."
 ---
