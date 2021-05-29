@@ -8,4 +8,12 @@ plugins:
   - jekyll-last-modified
 exclude: [vendor]
 title: gymNEWSium
-description: Die Gymerzeitung aus Burgdorf
+description: Eine monatliche Gymerzeitung
+copyright: 2021 Verein gymNEWSium, Burgdorf
+categorylist:
+  announcements: 
+    title: Ankündigungen
+    url: /announcements/
+  releases:
+    title: Ausgaben
+    url: /ausgaben/

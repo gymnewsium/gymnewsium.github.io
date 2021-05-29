@@ -1,6 +1,6 @@
 ---
-layout: zeitung
-categories: zeitung
+layout: release
+category: releases
 title: Zeitung vom Juni 2021
 description: "Die erste Ausgabe wurde am 1. Juni 2021 veröffentlicht"
 download: /assets/downloads/ausgabe2022-06.pdf
