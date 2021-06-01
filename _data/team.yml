@@ -1,103 +1,64 @@
 -
   name: |
-    Ivan 
+    Ivan<br>
     Henauer
-  position: Präsident und Fun
+  position: Präsident & Fun
   bio: |
-    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
-    Praesent aliquam in tellus eu gravida. 
-    Aliquam varius finibus est, et interdum justo suscipit id. 
-    Etiam dictum feugiat tellus, a semper massa. 
+    Ich bin 17 Jahre alt, befinde mich in der Klasse 23h und habe als Schwerpunktfach Bio/Chemie. 
+    In meiner Freizeit beschäftige ich mich viel mit Kinematographie und Musik.
   icons:
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/ivanovich_300103/
-  image: man.jpg
+  image: Ivan Henauer.jpg
 -
   name: |
-    Linda 
+    Linda<br>
     Wüthrich
-  position: News und Insta
+  position: News & Insta
   bio: |
-    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
-    Praesent aliquam in tellus eu gravida. 
-    Aliquam varius finibus est, et interdum justo suscipit id. 
-    Etiam dictum feugiat tellus, a semper massa. 
+    Ich bin 15 Jahre alt und bin in der Klasse 23f. 
+    Mein Schwerpunktfach ist PPP. 
+    In meiner Freizeit spiele ich Tennis und lese gerne.
   icons:
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/_linda__w_/
-  image: women.jpg
+  image: Linda Wüthrich.jpg
 -
   name: |
-    Matthew
+    Matthew<br>
     Haldimann
-  position: Website und Allgemeinwissen
+  position: Webseite & Allgemeinwissen
   bio: |
-    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
-    Praesent aliquam in tellus eu gravida. 
-    Aliquam varius finibus est, et interdum justo suscipit id. 
-    Etiam dictum feugiat tellus, a semper massa. 
+    Ich bin 15 Jahre alt, bin in der Klasse 23h und habe das Schwerpunktfach PAM. 
+    Meine Hobbys sind Schach, Schwimmen und Leichtathletik.  
   icons:
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/_ma7thew_/
-  image: man.jpg
+  image: Matthew Haldimann.jpg
 -
   name: |
-    Mirjam
+    Mirjam<br>
     Gurtner
   position: Politik
   bio: |
-    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
-    Praesent aliquam in tellus eu gravida. 
-    Aliquam varius finibus est, et interdum justo suscipit id. 
-    Etiam dictum feugiat tellus, a semper massa. 
+    Ich bin 15 Jahre alt, besuche die englische Immersionsklasse 24e und mein Schwerpunktfach ist Musik.
+    In meiner Freizeit spiele ich Querflöte und leite in der Cevi Jungschar Herzogenbuchsee.
   icons:
     -
       icon: fa fa-instagram
       url: https://www.instagram.com/olivemitgurke/
-  image: women.jpg
+  image: Mirjam Gurtner.jpg
 -
   name: |
-    Luca
-    Mösch
-  position: Fun
-  bio: |
-    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
-    Praesent aliquam in tellus eu gravida. 
-    Aliquam varius finibus est, et interdum justo suscipit id. 
-    Etiam dictum feugiat tellus, a semper massa. 
-  icons:
-    -
-      icon: fa fa-instagram
-      url: https://www.instagram.com/luca_3537/
-  image: man.jpg
--
-  name: |
-    Nadja
-    Bühler
-  position: Design
-  bio: |
-    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
-    Praesent aliquam in tellus eu gravida. 
-    Aliquam varius finibus est, et interdum justo suscipit id. 
-    Etiam dictum feugiat tellus, a semper massa. 
-  icons:
-    -
-      icon: fa fa-instagram
-      url: https://www.instagram.com/nad.ja_bu/
-  image: women.jpg
--
-  name: |
-    Rafael
+    Rafael<br>
     Urben
-  position: IT und Korrekturlesen
+  position: IT & Korrekturlesen
   bio: |
-    Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
-    Praesent aliquam in tellus eu gravida. 
-    Aliquam varius finibus est, et interdum justo suscipit id. 
-    Etiam dictum feugiat tellus, a semper massa. 
+    Ich bin 16 Jahre alt und besuche die Klasse 23h mit dem Schwerpunktfach PAM. 
+    In meiner Freizeit spiele ich die Basler Trommel und verbringe meine Zeit sehr gerne am Computer.
   icons:
     -
       icon: fa fa-instagram
@@ -108,4 +69,17 @@
     -
       icon: fa fa-linkedin
       url: https://www.linkedin.com/in/rafaelurben/
-  image: man.jpg
+  image: Rafael Urben.jpg
+-
+  name: |
+    Nadja<br>
+    Bühler
+  position: Design & Beiträge
+  bio: |
+    Ich bin 16 Jahre alt, bin in der Klasse 23d und besuche den Gymer mit dem Schwerpunktfach Spanisch und Immersion Französisch.
+    In meiner Freizeit spiele ich Geige und voltigiere.
+  icons:
+    -
+      icon: fa fa-instagram
+      url: https://www.instagram.com/nad.ja_bu/
+  image: Nadja Bühler.jpg
