@@ -1,0 +1,11 @@
+<iframe id="pdfviewer" class="pdf" src="/modules/pdfjs-2.8.335-dist/web/viewer.html?file={{ include.url }}"></iframe>
+<script>
+    function pdfviewerfullscreen() {
+        let viewer = document.getElementById('pdfviewer')
+        if (viewer.requestFullscreen) {
+            viewer.requestFullscreen();
+        } else {
+            location.href = "/modules/pdfjs-2.8.335-dist/web/viewer.html?file={{ include.url }}"
+        }
+    }
+</script>

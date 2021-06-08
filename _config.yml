@@ -17,3 +17,9 @@ categorylist:
   releases:
     title: Ausgaben
     url: /releases/
+defaults:
+  -
+    scope:
+      path: "modules"
+    values:
+      sitemap: false
