@@ -8,7 +8,7 @@
     In meiner Freizeit beschäftige ich mich viel mit Kinematographie und Musik.
   icons:
     -
-      icon: fa fa-instagram
+      icon: fab fa-instagram
       url: https://www.instagram.com/ivanovich_300103/
   image: Ivan Henauer.jpg
 -
@@ -22,7 +22,7 @@
     In meiner Freizeit spiele ich Tennis und lese gerne.
   icons:
     -
-      icon: fa fa-instagram
+      icon: fab fa-instagram
       url: https://www.instagram.com/_linda__w_/
   image: Linda Wüthrich.jpg
 -
@@ -35,7 +35,7 @@
     Meine Hobbys sind Schach, Schwimmen und Leichtathletik.  
   icons:
     -
-      icon: fa fa-instagram
+      icon: fab fa-instagram
       url: https://www.instagram.com/_ma7thew_/
   image: Matthew Haldimann.jpg
 -
@@ -48,7 +48,7 @@
     In meiner Freizeit spiele ich Querflöte und leite in der Cevi Jungschar Herzogenbuchsee.
   icons:
     -
-      icon: fa fa-instagram
+      icon: fab fa-instagram
       url: https://www.instagram.com/olivemitgurke/
   image: Mirjam Gurtner.jpg
 -
@@ -61,13 +61,13 @@
     In meiner Freizeit spiele ich die Basler Trommel und verbringe meine Zeit sehr gerne am Computer.
   icons:
     -
-      icon: fa fa-instagram
+      icon: fab fa-instagram
       url: https://www.instagram.com/rafaelurben/
     -
-      icon: fa fa-github
+      icon: fab fa-github
       url: https://www.github.com/rafaelurben/
     -
-      icon: fa fa-linkedin
+      icon: fab fa-linkedin
       url: https://www.linkedin.com/in/rafaelurben/
   image: Rafael Urben.jpg
 -
@@ -80,6 +80,6 @@
     In meiner Freizeit spiele ich Geige und voltigiere.
   icons:
     -
-      icon: fa fa-instagram
+      icon: fab fa-instagram
       url: https://www.instagram.com/nad.ja_bu/
   image: Nadja Bühler.jpg
