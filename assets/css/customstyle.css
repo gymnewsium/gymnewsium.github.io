@@ -42,6 +42,22 @@ footer .social ul li a i:hover {
     color: #5865F2;
 }
 
+footer .social ul li a i.fa-instagram:hover {
+    color: #DF2A70;
+}
+
+footer .social ul li a i.fa-envelope:hover {
+    color: #FF101F;
+}
+
+footer .social ul li a i.fa-discord:hover {
+    color: #5865F2;
+}
+
+footer .social ul li a i.fa-university:hover {
+    color: #7DA636;
+}
+
 footer .copyright {
     color: white;
 }
