@@ -4,7 +4,7 @@
     Henauer
   position: Präsident & Fun
   bio: |
-    Ich bin 17 Jahre alt, befinde mich in der Klasse 23h und habe als Schwerpunktfach Bio/Chemie. 
+    Ich bin 18 Jahre alt, befinde mich in der Klasse 23h und habe als Schwerpunktfach Bio/Chemie. 
     In meiner Freizeit beschäftige ich mich viel mit Kinematographie und Musik.
   icons:
     -
@@ -31,7 +31,7 @@
     Haldimann
   position: Webseite & Allgemeinwissen
   bio: |
-    Ich bin 15 Jahre alt, bin in der Klasse 23h und habe das Schwerpunktfach PAM. 
+    Ich bin 16 Jahre alt, bin in der Klasse 23h und habe das Schwerpunktfach PAM. 
     Meine Hobbys sind Schach, Schwimmen und Leichtathletik.  
   icons:
     -
@@ -47,9 +47,7 @@
     Ich bin 15 Jahre alt, besuche die englische Immersionsklasse 24e und mein Schwerpunktfach ist Musik.
     In meiner Freizeit spiele ich Querflöte und leite in der Cevi Jungschar Herzogenbuchsee.
   icons:
-    -
-      icon: fab fa-instagram
-      url: https://www.instagram.com/olivemitgurke/
+
   image: Mirjam Gurtner.jpg
 -
   name: |
@@ -57,7 +55,7 @@
     Urben
   position: IT & Korrekturlesen
   bio: |
-    Ich bin 16 Jahre alt und besuche die Klasse 23h mit dem Schwerpunktfach PAM. 
+    Ich bin 17 Jahre alt und besuche die Klasse 23h mit dem Schwerpunktfach PAM. 
     In meiner Freizeit spiele ich die Basler Trommel und verbringe meine Zeit sehr gerne am Computer.
   icons:
     -
