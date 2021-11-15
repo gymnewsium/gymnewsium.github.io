@@ -17,6 +17,9 @@ categorylist:
   releases:
     title: Ausgaben
     url: /releases/
+  articles:
+    title: Artikel
+    url: /articles/
 defaults:
   -
     scope:
