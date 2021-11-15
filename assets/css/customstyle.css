@@ -1,3 +1,21 @@
+/* Post */
+
+.meta {
+    color: #c4c4c4;
+}
+
+.meta .date {
+    color: white;
+}
+
+.categorylink, .taglink {
+    text-decoration: none;
+}
+
+.categorylink:hover, .taglink:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 
 footer {

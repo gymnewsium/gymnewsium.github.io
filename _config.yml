@@ -14,12 +14,28 @@ categorylist:
   announcements: 
     title: Ankündigungen
     url: /announcements/
-  releases:
-    title: Ausgaben
-    url: /releases/
   articles:
     title: Artikel
     url: /articles/
+  releases:
+    title: Ausgaben
+    url: /releases/
+taglist:
+  aktuelles:
+    title: Aktuelles
+    url: /tag/aktuelles/
+  allgemeinwissen:
+    title: Allgemeinwissen
+    url: /tag/allgemeinwissen/
+  geschichte:
+    title: Geschichte
+    url: /tag/geschichte/
+  gymerleben:
+    title: Gymerleben
+    url: /tag/gymerleben/
+  politik:
+    title: Politik
+    url: /tag/politik/
 defaults:
   -
     scope:
