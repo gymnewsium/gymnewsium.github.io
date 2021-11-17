@@ -11,25 +11,29 @@ last_modified_at: 2021-05-25 13:45:00 +0200
     <div class="container">
         <div class="intro">
             <h2 class="text-center">Team</h2>
-            <p class="text-center">Das kleine aber engagierte Team hinter der inoffiziellen Gymerzeitung Burgdorf&nbsp;</p>
+            <p class="text-center">Das kleine aber engagierte Team hinter der inoffiziellen Gymerzeitung Burgdorf</p>
         </div>
         <div class="row justify-content-center people">
-            {% for person in site.data.team %}
-                <div class="col-md-6 col-lg-4 item">
+            {% for person_hash in site.data.team %}
+            {% assign username = person_hash[0] %}
+            {% assign person = person_hash[1] %}
+            {% unless person.hidden %}
+                <div id="p-{{ username }}" class="col-md-6 col-lg-4 item">
                     <div class="box">
                         <img class="rounded-circle" src="/assets/img/team/{{ person.image }}">
-                        <h3 class="name">{{ person.name }}</h3>
+                        <h3 class="name">{{ person.name | split: " " | join: "<br>" }}</h3>
                         <p class="title">{{ person.position }}</p>
                         <p class="description">{{ person.bio }}</p>
                         <div class="social">
                             {% for icon in person.icons %}
-                                <a href="{{ icon.url }}" target="_blank">
-                                    <i class="{{ icon.icon }}"></i>
-                                </a>
+                            <a href="{{ icon.url }}" target="_blank">
+                                <i class="{{ icon.icon }}"></i>
+                            </a>
                             {% endfor %}
                         </div>
                     </div>
                 </div>
+                {% endunless %}
             {% endfor %}
         </div>
     </div>

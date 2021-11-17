@@ -4,15 +4,11 @@
     color: #c4c4c4;
 }
 
-.meta .date {
-    color: white;
-}
-
-.categorylink, .taglink {
+.categorylink, .taglink, .authorlink {
     text-decoration: none;
 }
 
-.categorylink:hover, .taglink:hover {
+.categorylink:hover, .taglink:hover, .authorlink:hover {
     text-decoration: underline;
 }
 
