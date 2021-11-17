@@ -6,6 +6,8 @@ paginate_path: "/archiv/page:num/"
 plugins:
   - jekyll-paginate
   - jekyll-last-modified
+page_excerpts: true
+excerpt_separator: "<!--more-->"
 exclude: [vendor]
 title: gymNEWSium
 description: Eine unabhängige Gymerzeitung aus Burgdorf
@@ -13,29 +15,37 @@ copyright: 2021 Verein gymNEWSium, Burgdorf
 categorylist:
   announcements: 
     title: Ankündigungen
+    singulartitle: Ankündigung
     url: /announcements/
   articles:
     title: Artikel
+    singulartitle: Artikel
     url: /articles/
   releases:
     title: Ausgaben
+    singulartitle: Ausgabe
     url: /releases/
 taglist:
   aktuelles:
     title: Aktuelles
     url: /tag/aktuelles/
+    bg: |-
+      #ee9c00
   allgemeinwissen:
     title: Allgemeinwissen
     url: /tag/allgemeinwissen/
-  geschichte:
-    title: Geschichte
-    url: /tag/geschichte/
+    bg: |-
+      #0b0
   gymerleben:
     title: Gymerleben
     url: /tag/gymerleben/
+    bg: |-
+      #00b7ff
   politik:
     title: Politik
     url: /tag/politik/
+    bg: |-
+      #c00
 defaults:
   -
     scope:

@@ -1,9 +1,33 @@
-{% for post in include.posts %}
-    <div class="post-preview">
-        <a href="{{ post.url }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            <h3 class="post-subtitle">{{ post.description }}</h3>
-        </a>
+<br class="mb-1">
+<div class="container">
+    <div class="row justify-content-center">
+        {% for post in include.posts %}
+            <div class="col-lg-6 col-xxl-4 col-12 item">
+                <div class="row card ms-1 me-1 mb-3">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-header">
+                        {% assign category = site.categorylist[post.category] %}
+                        <a href="{{ category.url }}"><span class="badge bg-secondary" style="background-color: {{ category.bg }} !important">{{ category.singulartitle }}</span></a>
+                        {% for tagname in post.tags %}
+                            {% assign tag = site.taglist[tagname] %}
+                            <a href="{{ tag.url }}"><span class="badge bg-primary" style="background-color: {{ tag.bg }} !important">{{ tag.title }}</span></a>
+                        {% endfor %}    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ post.title }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ post.description }}</h6>
+                        <p class="card-text">{{ post.excerpt | markdownify | strip_html | truncatewords: 20 }}</p>
+
+                        <a href="{{ post.url }}" class="btn btn-primary card-link">Ansehen</a>
+                        {% if post.download %}
+                            <a href="{{ post.download }}" class="btn btn-secondary card-link">Herunterladen</a>
+                        {% endif %}
+                    </div>
+                    <div class="card-footer text-muted">
+                        {{ post.date | date: "%d.%m.%Y" }} - <a href="/about#p-{{ post.author }}">{{ site.data.team[post.author].name }}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
     </div>
-    <hr>
-{% endfor %}
+</div>

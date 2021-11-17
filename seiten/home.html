@@ -23,13 +23,18 @@ last_modified_at: 2021-05-25 13:45:00 +0200
     </div>
 </header>
 <div class="container">
-    <div class="row">
-        <div class="col">
-            {% assign latest_posts = site.posts | limit:5 %}
-            {% include postlist.html posts=latest_posts %}
-            <div class="clearfix">
-                <a class="btn btn-primary float-end" role="button" href="/archiv/">Ältere Beiträge <i class="fas fa-arrow-right"></i></a>
-            </div>
+    <h2>Willkommen</h2>
+    <p>
+        Willkommen auf der gymNEWSium-Webseite! Wir sind ein kleines <a href="/about">Team</a>, welches aus Schüler*innen des Gymnasiums Burgdorf (Schweiz) besteht. 
+        Wir wünschen viel Spass beim Lesen!
+    </p>
+    <h2>Neuste Beiträge</h2>
+    <div id="neuste-beiträge">
+        {% assign latest_posts = site.posts | limit:5 %}
+        {% include postlist.html posts=latest_posts %}
+        <br class="mb-1">
+        <div class="clearfix">
+            <a class="btn btn-primary float-end" role="button" href="/archiv/">Alle Beiträge <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </div>
