@@ -4,7 +4,7 @@ layout: base
 header_image: home.jpg
 title: Startseite
 description: Eine unabhängige Gymerzeitung aus Burgdorf
-last_modified_at: 2021-05-25 13:45:00 +0200
+last_modified_at: 2021-11-18 18:00:00 +0100
 ---
 
 <header id="header" class="masthead">
@@ -28,13 +28,22 @@ last_modified_at: 2021-05-25 13:45:00 +0200
         Willkommen auf der gymNEWSium-Webseite! Wir sind ein kleines <a href="/about">Team</a>, welches aus Schüler*innen des Gymnasiums Burgdorf (Schweiz) besteht. 
         Wir wünschen viel Spass beim Lesen!
     </p>
-    <h2>Neuste Beiträge</h2>
+    <h3>Neuste Ausgaben und Ankündigungen</h3>
     <div id="neuste-beiträge">
-        {% assign latest_posts = site.posts | limit:5 %}
+        {% assign latest_releases = site.categories["releases"] %}
+        {% assign latest_announcements = site.categories["announcements"] %}
+        {% assign latest_posts = latest_releases | concat: latest_announcements | limit:3 %}
         {% include postlist.html posts=latest_posts %}
-        <br class="mb-1">
-        <div class="clearfix">
-            <a class="btn btn-primary float-end" role="button" href="/archiv/">Alle Beiträge <i class="fas fa-arrow-right"></i></a>
-        </div>
+    </div>
+    <h3 class="mt-1">Neuste Artikel</h3>
+    <div id="neuste-artikel">
+        {% assign latest_articles = site.categories["articles"] | limit:3 %}
+        {% include postlist.html posts=latest_articles %}
+    </div>
+    <br class="mb-1">
+    <div class="clearfix">
+        <a class="btn btn-primary float-end" role="button" href="/archiv/">
+            Alle Beiträge <i class="fas fa-arrow-right"></i>
+        </a>
     </div>
 </div>

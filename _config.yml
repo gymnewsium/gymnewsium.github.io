@@ -8,7 +8,7 @@ plugins:
   - jekyll-last-modified
 page_excerpts: true
 excerpt_separator: "<!--more-->"
-exclude: [vendor]
+exclude: [vendor, README.md, README-gh-pages.md, LICENSE, Gemfile, Gemfile.lock]
 title: gymNEWSium
 description: Eine unabhängige Gymerzeitung aus Burgdorf
 copyright: 2021 Verein gymNEWSium, Burgdorf

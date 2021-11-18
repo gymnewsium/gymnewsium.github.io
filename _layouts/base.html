@@ -34,6 +34,7 @@
     <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
     <meta name="application-name" content="{{ site.title }}">
     <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="{{ page.meta_description | default: page.description }}">
 </head>
 
 <body style="background-color: black;">
@@ -48,7 +49,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/">Startseite</a></li>
                         <li class="nav-item"><a class="nav-link" href="/about">Über uns</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/archiv/">Archiv</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/articles/">Artikel</a></li>
                         <li class="nav-item"><a class="nav-link" href="/releases/">Ausgaben</a></li>
                     </ul>
                 </div>
@@ -68,9 +69,6 @@
                             </li>
                             <li>
                                 <a href="/archiv/">Archiv</a>
-                            </li>
-                            <li>
-                                <a href="/releases/">Ausgaben</a>
                             </li>
                         </ul>
                         <div class="social mb-4">

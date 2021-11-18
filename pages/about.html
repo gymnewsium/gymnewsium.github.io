@@ -18,8 +18,8 @@ last_modified_at: 2021-05-25 13:45:00 +0200
             {% assign username = person_hash[0] %}
             {% assign person = person_hash[1] %}
             {% unless person.hidden %}
-                <div id="p-{{ username }}" class="col-md-6 col-lg-4 item">
-                    <div class="box">
+                <div id="p-{{ username }}" class="col-md-6 col-lg-4 item mb-4">
+                    <div class="box h-100 pb-0">
                         <img class="rounded-circle" src="/assets/img/team/{{ person.image }}">
                         <h3 class="name">{{ person.name | split: " " | join: "<br>" }}</h3>
                         <p class="title">{{ person.position }}</p>
