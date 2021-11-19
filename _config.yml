@@ -7,7 +7,6 @@ plugins:
   - jekyll-paginate
   - jekyll-last-modified
 page_excerpts: true
-excerpt_separator: "<!--more-->"
 exclude: [vendor, README.md, README-gh-pages.md, LICENSE, Gemfile, Gemfile.lock]
 title: gymNEWSium
 description: Eine unabhängige Gymerzeitung aus Burgdorf
@@ -47,6 +46,12 @@ taglist:
     bg: |-
       #c00
 defaults:
+  - 
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      excerpt_separator: "<!--more-->"
   -
     scope:
       path: "modules"
