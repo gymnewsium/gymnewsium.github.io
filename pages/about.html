@@ -13,7 +13,7 @@ last_modified_at: 2021-05-25 13:45:00 +0200
             <h2 class="text-center">Team</h2>
             <p class="text-center">Das kleine aber engagierte Team hinter der inoffiziellen Gymerzeitung Burgdorf</p>
         </div>
-        <div class="row justify-content-center people">
+        <div id="p-redaktion" class="row justify-content-center people">
             {% for person_hash in site.data.team %}
             {% assign username = person_hash[0] %}
             {% assign person = person_hash[1] %}

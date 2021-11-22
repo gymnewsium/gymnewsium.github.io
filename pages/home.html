@@ -37,13 +37,13 @@ meta_description: |
     <div id="neuste-beiträge">
         {% assign latest_releases = site.categories["releases"] %}
         {% assign latest_announcements = site.categories["announcements"] %}
-        {% assign latest_posts = latest_releases | concat: latest_announcements | limit:3 %}
-        {% include postlist.html posts=latest_posts %}
+        {% assign latest_posts = latest_releases | concat: latest_announcements %}
+        {% include postlist.html posts=latest_posts limit=3 %}
     </div>
     <h3 class="mt-1">Neuste Artikel</h3>
     <div id="neuste-artikel">
-        {% assign latest_articles = site.categories["articles"] | limit:3 %}
-        {% include postlist.html posts=latest_articles %}
+        {% assign latest_articles = site.categories["articles"] %}
+        {% include postlist.html posts=latest_articles limit=6 %}
     </div>
     <br class="mb-1">
     <div class="clearfix">
