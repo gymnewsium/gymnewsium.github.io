@@ -23,12 +23,19 @@
                         <div class="position-absolute" style="bottom: 1em;">
                             <a href="{{ post.url }}" class="btn btn-primary card-link">{{ post.readbuttontext | default:"Lesen"}}</a>
                             {% if post.download %}
-                                <a href="{{ post.download }}" class="btn btn-secondary card-link">Herunterladen</a>
+                                <a href="{{ post.download }}" class="btn btn-secondary card-link">
+                                    <abbr title="Hier klicken, um die Ausgabe herunterzuladen.">
+                                        <i class="fas fa-download"></i>
+                                    </abbr>
+                                </a>
                             {% endif %}
                         </div>
                     </div>
                     <div class="card-footer text-muted">
-                        {{ post.date | date: "%d.%m.%Y" }} - <a href="/about#p-{{ post.author }}">{{ site.data.team[post.author].name }}</a>
+                        {{ post.date | date: "%d.%m.%Y" }} 
+                        {% if post.author %}
+                        - <a href="/about#p-{{ post.author }}">{{ site.data.team[post.author].name }}</a>
+                        {% endif %}
                     </div>
                 </div>
             </div>

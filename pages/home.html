@@ -4,7 +4,6 @@ layout: base
 header_image: home.jpg
 title: Startseite
 description: Eine unabhängige Gymerzeitung aus Burgdorf
-last_modified_at: 2021-11-18 18:00:00 +0100
 meta_description: |
     Wir sind ein kleines Team, welches aus Schüler*innen des Gymnasiums Burgdorf (Schweiz) besteht.
     Wir produzieren ungefähr monatlich eine Zeitschrift mit aktuellen politischen Themen, geschichtlichen Fakten,
@@ -43,7 +42,7 @@ meta_description: |
     <h3 class="mt-1">Neuste Artikel</h3>
     <div id="neuste-artikel">
         {% assign latest_articles = site.categories["articles"] %}
-        {% include postlist.html posts=latest_articles limit=6 %}
+        {% include postlist.html posts=latest_articles limit=9 %}
     </div>
     <br class="mb-1">
     <div class="clearfix">

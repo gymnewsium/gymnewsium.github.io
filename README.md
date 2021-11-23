@@ -2,5 +2,5 @@
 
 Willkommen im Quellcode der gymNEWSium Webseite!
 
-Du suchst die Webseite? Diese ist auf [gymnewsium.ch](https://gymnewsium.ch) zu finden.
-Hast du Fragen? Dann kannst du uns gerne [kontaktieren](https://go.gymnewsium.ch/email).
+Auf der Suche nach der Website? Diese ist auf [gymnewsium.ch](https://gymnewsium.ch) zu finden.
+Fragen? Diese können gerne [per E-Mail](https://go.gymnewsium.ch/email) gestellt werden!
