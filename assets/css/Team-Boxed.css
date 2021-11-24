@@ -89,3 +89,6 @@
   opacity: 1;
 }
 
+.team-boxed .item:target .box {
+  border: 5px solid #ffbb00;
+}

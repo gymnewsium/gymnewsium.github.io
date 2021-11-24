@@ -1,7 +1,12 @@
--
-  name: |
-    Ivan<br>
-    Henauer
+davidberner:
+  hidden: true
+  name: David Berner
+  position: Politik
+  bio:
+  icons:
+  image: 0-dummy.png
+ivanhenauer:
+  name: Ivan Henauer
   position: Präsident & Fun
   bio: |
     Ich bin 18 Jahre alt, befinde mich in der Klasse 23h und habe als Schwerpunktfach Bio/Chemie. 
@@ -11,10 +16,8 @@
       icon: fab fa-instagram
       url: https://www.instagram.com/ivanovich_300103/
   image: Ivan Henauer.jpg
--
-  name: |
-    Linda<br>
-    Wüthrich
+lindawüthrich:
+  name: Linda Wüthrich
   position: News & Insta
   bio: |
     Ich bin 15 Jahre alt und bin in der Klasse 23f. 
@@ -25,10 +28,8 @@
       icon: fab fa-instagram
       url: https://www.instagram.com/_linda__w_/
   image: Linda Wüthrich.jpg
--
-  name: |
-    Matthew<br>
-    Haldimann
+matthewhaldimann:
+  name: Matthew Haldimann
   position: Webseite & Allgemeinwissen
   bio: |
     Ich bin 16 Jahre alt, bin in der Klasse 23h und habe das Schwerpunktfach PAM. 
@@ -38,10 +39,8 @@
       icon: fab fa-instagram
       url: https://www.instagram.com/_ma7thew_/
   image: Matthew Haldimann.jpg
--
-  name: |
-    Mirjam<br>
-    Gurtner
+mirjamgurtner:
+  name: Mirjam Gurtner
   position: Politik
   bio: |
     Ich bin 15 Jahre alt, besuche die englische Immersionsklasse 24e und mein Schwerpunktfach ist Musik.
@@ -49,10 +48,19 @@
   icons:
 
   image: Mirjam Gurtner.jpg
--
-  name: |
-    Rafael<br>
-    Urben
+nadjabühler:
+  name: Nadja Bühler
+  position: Design & Beiträge
+  bio: |
+    Ich bin 16 Jahre alt, bin in der Klasse 23d und besuche den Gymer mit dem Schwerpunktfach Spanisch und Immersion Französisch.
+    In meiner Freizeit spiele ich Geige und voltigiere.
+  icons:
+    -
+      icon: fab fa-instagram
+      url: https://www.instagram.com/nad.ja_bu/
+  image: Nadja Bühler.jpg
+rafaelurben:
+  name: Rafael Urben
   position: IT & Korrekturlesen
   bio: |
     Ich bin 17 Jahre alt und besuche die Klasse 23h mit dem Schwerpunktfach PAM. 
@@ -68,16 +76,7 @@
       icon: fab fa-linkedin
       url: https://www.linkedin.com/in/rafaelurben/
   image: Rafael Urben.jpg
--
-  name: |
-    Nadja<br>
-    Bühler
-  position: Design & Beiträge
-  bio: |
-    Ich bin 16 Jahre alt, bin in der Klasse 23d und besuche den Gymer mit dem Schwerpunktfach Spanisch und Immersion Französisch.
-    In meiner Freizeit spiele ich Geige und voltigiere.
-  icons:
-    -
-      icon: fab fa-instagram
-      url: https://www.instagram.com/nad.ja_bu/
-  image: Nadja Bühler.jpg
+redaktion:
+  hidden: true
+  name: gymNEWSium Redaktion
+  image: Redaktion.png

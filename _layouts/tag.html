@@ -7,7 +7,7 @@ header_image: archiv.jpg
 <div class="container">
     <div class="row">
         <div class="col">
-            {% assign posts = site.categories[page.category] %}
+            {% assign posts = site.tags[page.tag] %}
             {% include postlist.html posts=posts %}
         </div>
     </div>

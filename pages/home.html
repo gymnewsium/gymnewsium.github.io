@@ -1,0 +1,53 @@
+---
+permalink: /
+layout: base
+header_image: home.jpg
+title: Startseite
+description: Eine unabhängige Gymerzeitung aus Burgdorf
+meta_description: |
+    Wir sind ein kleines Team, welches aus Schüler*innen des Gymnasiums Burgdorf (Schweiz) besteht.
+    Wir produzieren ungefähr monatlich eine Zeitschrift mit aktuellen politischen Themen, geschichtlichen Fakten,
+    zeitvertreibenden Rätseln und vielem mehr.
+---
+
+<header id="header" class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                <div class="site-heading">
+                    <h1>
+                        <img src="/assets/img/logo-white.png" style="width: 100%;">
+                    </h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <h2>Willkommen</h2>
+    <p>
+        Willkommen auf der gymNEWSium-Webseite! Wir sind ein kleines <a href="/about/">Team</a>, welches aus Schüler*innen des Gymnasiums Burgdorf (Schweiz) besteht. 
+        Wir produzieren ungefähr monatlich eine Zeitschrift mit aktuellen politischen Themen, geschichtlichen Fakten, zeitvertreibenden Rätseln und vielem mehr.
+        Wir wünschen viel Spass beim Lesen!
+    </p>
+    <h3>Neuste Ausgaben und Ankündigungen</h3>
+    <div id="neuste-beiträge">
+        {% assign latest_releases = site.categories["releases"] %}
+        {% assign latest_announcements = site.categories["announcements"] %}
+        {% assign latest_posts = latest_releases | concat: latest_announcements %}
+        {% include postlist.html posts=latest_posts limit=3 %}
+    </div>
+    <h3 class="mt-1">Neuste Artikel</h3>
+    <div id="neuste-artikel">
+        {% assign latest_articles = site.categories["articles"] %}
+        {% include postlist.html posts=latest_articles limit=9 %}
+    </div>
+    <br class="mb-1">
+    <div class="clearfix">
+        <a class="btn btn-primary float-end" role="button" href="/archiv/">
+            Alle Beiträge <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</div>

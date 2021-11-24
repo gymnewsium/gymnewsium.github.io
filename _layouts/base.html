@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="description" content="{{ page.description }}">
+    <meta name="description" content="{{ page.meta_description | default: page.description }}">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
@@ -47,8 +48,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/">Startseite</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/about">Über uns</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/archiv/">Archiv</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about/">Über uns</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/articles/">Artikel</a></li>
                         <li class="nav-item"><a class="nav-link" href="/releases/">Ausgaben</a></li>
                     </ul>
                 </div>
@@ -64,13 +65,10 @@
                                 <a href="/">Startseite</a>
                             </li>
                             <li>
-                                <a href="/about">Über uns</a>
+                                <a href="/about/">Über uns</a>
                             </li>
                             <li>
                                 <a href="/archiv/">Archiv</a>
-                            </li>
-                            <li>
-                                <a href="/releases/">Ausgaben</a>
                             </li>
                         </ul>
                         <div class="social mb-4">

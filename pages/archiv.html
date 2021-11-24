@@ -1,0 +1,38 @@
+---
+permalink: /archiv/
+layout: default
+header_image: archiv.jpg
+title: Archiv
+description: Alle veröffentlichten Beiträge
+---
+
+<br class="mb-1">
+{% include postlist.html posts=site.posts %}
+
+{%- comment -%} <div class="container">
+    <div class="clearfix">
+        <div id="paginator" class="btn-group d-flex" role="group">
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="flex-fill d-flex justify-content-start">
+                    <button class="btn btn-primary" type="button"><i class="fas fa-arrow-left"></i></button>
+                </a>
+            {% else %}
+                <a class="flex-fill d-flex justify-content-start">
+                    <button class="btn btn-primary disabled" type="button"><i class="fas fa-arrow-left"></i></button>
+                </a>
+            {% endif %}
+            <span style="padding: 10px;" class="flex-fill d-flex justify-content-center">
+                Seite {{ paginator.page }} von {{ paginator.total_pages }}
+            </span>
+            {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="flex-fill d-flex justify-content-end">
+                    <button class="btn btn-primary" type="button"><i class="fas fa-arrow-right"></i></button>
+                </a>
+            {% else %}
+                <a class="flex-fill d-flex justify-content-end">
+                    <button class="btn btn-primary disabled" type="button"><i class="fas fa-arrow-right"></i></button>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+</div> {%- endcomment -%}

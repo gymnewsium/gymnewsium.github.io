@@ -1,9 +1,44 @@
-{% for post in include.posts %}
-    <div class="post-preview">
-        <a href="{{ post.url }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            <h3 class="post-subtitle">{{ post.description }}</h3>
-        </a>
+<div class="container mt-3">
+    <div class="row justify-content-start">
+        {% for post in include.posts limit:{{include.limit}} %}
+            <div class="col-lg-6 col-xxl-4 col-12 item mb-4">
+                <div class="row card ms-0 me-0 h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-header">
+                        {% assign category = site.categorylist[post.category] %}
+                        <a href="{{ category.url }}"><span class="badge bg-secondary" style="background-color: {{ category.bg }} !important">{{ category.singulartitle }}</span></a>
+                        {% for tagname in post.tags %}
+                            {% assign tag = site.taglist[tagname] %}
+                            <a href="{{ tag.url }}"><span class="badge bg-primary" style="background-color: {{ tag.bg }} !important">{{ tag.title }}</span></a>
+                        {% endfor %}    
+                    </div>
+                    <div class="card-body position-relative">
+                        <h5 class="card-title">{{ post.title }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ post.description }}</h6>
+                        <p class="card-text">{{ post.excerpt | markdownify | strip_html | truncatewords: 20 }}</p>
+
+                        <div style="height: 2em;">
+                            {%- comment -%} Placeholder because buttons are positioned absolute {%- endcomment -%}
+                        </div>
+                        <div class="position-absolute" style="bottom: 1em;">
+                            <a href="{{ post.url }}" class="btn btn-primary card-link">{{ post.readbuttontext | default:"Lesen"}}</a>
+                            {% if post.download %}
+                                <a href="{{ post.download }}" class="btn btn-secondary card-link">
+                                    <abbr title="Hier klicken, um die Ausgabe herunterzuladen.">
+                                        <i class="fas fa-download"></i>
+                                    </abbr>
+                                </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        {{ post.date | date: "%d.%m.%Y" }} 
+                        {% if post.author %}
+                        - <a href="/about#p-{{ post.author }}">{{ site.data.team[post.author].name }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
     </div>
-    <hr>
-{% endfor %}
+</div>

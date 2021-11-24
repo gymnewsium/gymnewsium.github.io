@@ -11,13 +11,31 @@ layout: base
                     <h1>{{ page.title }}</h1>
                     <h2 class="subheading">{{ page.description }}</h2>
                     <span class="meta">
-                        Veröffentlicht am {{ page.date | date: "%d.%m.%Y" }}
+                        Veröffentlicht am <span class="text-white">{{ page.date | date: "%d.%m.%Y" }}</span>
 
-                        {% if page.category %}{% if site.categorylist[page.category] %}
-                            in <a href="{{ site.categorylist[page.category].url }}" style="text-decoration: underline;">
+                        {% if page.category and site.categorylist[page.category] %}
+                            in <a class="categorylink" href="{{ site.categorylist[page.category].url }}">
                                 {{ site.categorylist[page.category].title }}
                             </a>
-                        {% endif %}{% endif %}
+                        {% endif %}
+                        <br>
+                        {% unless page.tags == empty %}
+                            <div class="tags mt-2">
+                                Tags:
+                                {% for tag in page.tags %}{% if site.taglist[tag] %}
+                                <a class="taglink" href="{{ site.taglist[tag].url }}">{{ site.taglist[tag].title }}</a>{% unless forloop.last %},{% endunless %}
+                                {% endif %}{% endfor %}
+                            </div>
+                        {% endunless %}
+                        {% if page.author and site.data.team[page.author] %}
+                            {% assign author = site.data.team[page.author] %}
+                            <div class="author mt-2">
+                                Autor:
+                                <a class="authorlink" href="/about#p-{{ page.author }}">
+                                    {{ author.name }}
+                                </a>
+                            </div>
+                        {% endif %}
                     </span>
                 </div>
             </div>

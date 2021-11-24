@@ -1,6 +1,9 @@
 _site/
+_drafts/noupload/
+_hiddendrafts/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 .git-metadata
 Gemfile.lock
+vendor/
