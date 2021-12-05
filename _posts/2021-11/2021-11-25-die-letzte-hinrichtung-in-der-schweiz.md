@@ -5,6 +5,7 @@ title: Die letzte Hinrichtung in der Schweiz
 description: "Die Geschichte der letzten Hinrichtung in der Schweiz"
 author: lindawüthrich
 tags: [allgemeinwissen]
+parent: /releases/ausgabe-2021-11
 ---
 
 Der Zürcher Kaufmann Hans Vollenweider war zu Beginn der 1930er Jahre kaum strafrechtlich aufgefallen. 

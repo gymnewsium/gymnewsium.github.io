@@ -5,6 +5,7 @@ title: "Kampf der toten Männer"
 description: "Die Geschichte des Kampfes der toten Männer"
 author: matthewhaldimann
 tags: [allgemeinwissen]
+parent: /releases/ausgabe-2021-11
 ---
 
 Wenn die meisten Menschen an den Ersten Weltkrieg denken, stellen sie sich normalerweise den Grabenkrieg an der Westfront vor, aber ein Grossteil der schwersten Kämpfe fanden an der Ostfront zwischen dem russischen Kaiserreich und dem deutschen Kaiserreich statt. Russland aus dem Krieg zu drängen war eines der Hauptziele Deutschlands in diesem Krieg, da Russland als grosse Bedrohung für seine Macht angesehen wurde. Ein grosses Hindernis stellte jedoch die Festung Osowiec dar, eine der nächsten Festungen zur westlichen Grenze des Tsaarenreichs. Diese Festung im heutigen Polen zwang Deutschland, seine Soldaten in der Region zu halten, anstatt sie dorthin zu schicken, wo sie gebraucht wurden. Ausserdem behinderte sie den deutschen Vormarsch nach Russland, sodass die Eroberung von Osowiec für ihren Plan von grosser Bedeutung war.

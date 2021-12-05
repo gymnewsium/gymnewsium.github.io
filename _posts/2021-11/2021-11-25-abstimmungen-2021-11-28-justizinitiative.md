@@ -5,6 +5,7 @@ title: Kurz und Knapp - Die Justizinitiative
 description: "Justizinitiative - Abstimmungen vom 28.11.2021"
 author: davidberner
 tags: [politik]
+parent: /releases/ausgabe-2021-11
 ---
 
 Adrian Gasser, Inhaber der Lorze-Gruppe, hat die Volksinitiative «Bestimmung der Bundesrichterinnen und Bundesrichter im Losverfahren» eingereicht und rund 130.000 Unterschriften erhalten. Ihn stört, dass Bundesrichter politischen Parteien angehören und vom Parlament gewählt werden. Es hätte seiner Meinung nach bei Justiz-Angelegenheiten kein Mitspracherecht. Die vom Bundesrat gewählte, unabhängige Fachkommission soll Richterkandidaten nach ihrem Potenzial und Können auswählen. Entschieden werde jedoch per Losverfahren.

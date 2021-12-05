@@ -5,6 +5,7 @@ title: Änderung des COVID-Gesetzes
 description: "Änderung des COVID-Gesetzes - Abstimmungen vom 28.11.2021"
 author: mirjamgurtner
 tags: [politik]
+parent: /releases/ausgabe-2021-11
 ---
 
 Nachdem am 13. Juni die Schweiz schon einmal über das Covid-19-Gesetz abgestimmt hat und es mit knapp 60 % angenommen wurde, stimmt die Schweiz am nächsten Sonntag erneut über die Änderung dieses Gesetzes ab. Seit dem Oktober steigt die Anzahl Ansteckungen in der Schweiz wieder. Deswegen hat der Bund neue Massnahmen ergriffen oder alte verstärkt. Nun hat aber ein Komitee zum zweiten Mal das Referendum gegen die Massnahmen unserer Regierung ergriffen.

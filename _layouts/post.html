@@ -65,6 +65,15 @@ layout: base
                         }
                     </style>
                 {% endif %}
+
+                {% assign subposts = site.posts | where:"parent",page.id %}
+                {% unless subposts == empty %}
+                    <div class="subposts">
+                        <br class="mb-1">
+                        <h2>Einzelveröffentlichungen</h2>
+                        {% include postlist.html posts=subposts %}
+                    </div>
+                {% endunless %}
             </div>
         </div>
     </div>
