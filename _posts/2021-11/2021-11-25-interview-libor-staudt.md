@@ -5,6 +5,7 @@ title: Interview mit Libor Staudt
 description: "Geschichten aus der Berufskarriere von Herrn Staudt"
 author: matthewhaldimann
 tags: [gymerleben]
+parent: /releases/ausgabe-2021-11
 ---
 
 Ich begrüsse euch hiermit zum neuen Format der gymNEWSium Zeitschrift:

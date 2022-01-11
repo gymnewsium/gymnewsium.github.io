@@ -5,6 +5,7 @@ title: Pflegeinitiative
 description: "Pflegeinitiative - Abstimmungen vom 28.11.2021"
 author: mirjamgurtner
 tags: [politik]
+parent: /releases/ausgabe-2021-11
 ---
 
 Im Moment sind in der Schweiz mehr als 10‘000 Stellen in der Pflege unbesetzt. Dadurch, dass Menschen immer älter werden, wird in Zukunft noch mehr Personal nötig sein. Dazu kommt, dass vier von zehn Pflegenden frühzeitig aus ihrem Beruf aussteigen. Dies führt zu überarbeitetem Personal und einer tieferen Qualität der Pflege und Betreuung. Deswegen hat der Schweizer Berufsverband der Pflegefachfrauen und Pflegefachmänner SBK im Jahr 2017 die Pflegeinitiative eingereicht. Im März hat dann das Parlament einen Gegenvorschlag lanciert.

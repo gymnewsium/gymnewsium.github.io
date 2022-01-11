@@ -4,6 +4,9 @@ davidberner:
   position: Politik
   bio:
   icons:
+    -
+      icon: fas fa-envelope
+      url: mailto:david@gymnewsium.ch
 ivanhenauer:
   name: Ivan Henauer
   position: Präsident & Fun
@@ -14,10 +17,13 @@ ivanhenauer:
     -
       icon: fab fa-instagram
       url: https://www.instagram.com/ivanovich_300103/
+    -
+      icon: fas fa-envelope
+      url: mailto:ivan@gymnewsium.ch
   image: Ivan Henauer.jpg
 lindawüthrich:
   name: Linda Wüthrich
-  position: News & Insta
+  position: Horsoskope & Diverses
   bio: |
     Ich bin 15 Jahre alt und bin in der Klasse 23f. 
     Mein Schwerpunktfach ist PPP. 
@@ -26,6 +32,9 @@ lindawüthrich:
     -
       icon: fab fa-instagram
       url: https://www.instagram.com/_linda__w_/
+    -
+      icon: fas fa-envelope
+      url: mailto:linda@gymnewsium.ch
   image: Linda Wüthrich.jpg
 matthewhaldimann:
   name: Matthew Haldimann
@@ -37,6 +46,9 @@ matthewhaldimann:
     -
       icon: fab fa-instagram
       url: https://www.instagram.com/_ma7thew_/
+    -
+      icon: fas fa-envelope
+      url: mailto:matthew@gymnewsium.ch
   image: Matthew Haldimann.jpg
 mirjamgurtner:
   name: Mirjam Gurtner
@@ -45,7 +57,9 @@ mirjamgurtner:
     Ich bin 15 Jahre alt, besuche die englische Immersionsklasse 24e und mein Schwerpunktfach ist Musik.
     In meiner Freizeit spiele ich Querflöte und leite in der Cevi Jungschar Herzogenbuchsee.
   icons:
-
+    -
+      icon: fas fa-envelope
+      url: mailto:mirjam@gymnewsium.ch
   image: Mirjam Gurtner.jpg
 nadjabühler:
   name: Nadja Bühler
@@ -57,10 +71,13 @@ nadjabühler:
     -
       icon: fab fa-instagram
       url: https://www.instagram.com/nad.ja_bu/
+    -
+      icon: fas fa-envelope
+      url: mailto:nadja@gymnewsium.ch
   image: Nadja Bühler.jpg
 rafaelurben:
   name: Rafael Urben
-  position: IT & Korrekturlesen
+  position: IT, Sekretariat, Korrektur & Instagram
   bio: |
     Ich bin 17 Jahre alt und besuche die Klasse 23h mit dem Schwerpunktfach PAM. 
     In meiner Freizeit spiele ich die Basler Trommel und verbringe meine Zeit sehr gerne am Computer.
@@ -74,6 +91,9 @@ rafaelurben:
     -
       icon: fab fa-linkedin
       url: https://www.linkedin.com/in/rafaelurben/
+    -
+      icon: fas fa-envelope
+      url: mailto:rafael@gymnewsium.ch
   image: Rafael Urben.jpg
 redaktion:
   hidden: true
