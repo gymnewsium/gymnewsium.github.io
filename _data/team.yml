@@ -1,7 +1,7 @@
 davidberner:
   hidden: true
   name: David Berner
-  position: Politik
+  position: Politik & Instagram
   bio:
   icons:
     -
@@ -9,7 +9,7 @@ davidberner:
       url: mailto:david@gymnewsium.ch
 ivanhenauer:
   name: Ivan Henauer
-  position: Präsident & Fun
+  position: Präsident & Layout
   bio: |
     Ich bin 18 Jahre alt, befinde mich in der Klasse 23h und habe als Schwerpunktfach Bio/Chemie. 
     In meiner Freizeit beschäftige ich mich viel mit Kinematographie und Musik.
@@ -25,7 +25,7 @@ lindawüthrich:
   name: Linda Wüthrich
   position: Horsoskope & Diverses
   bio: |
-    Ich bin 15 Jahre alt und bin in der Klasse 23f. 
+    Ich bin 16 Jahre alt und bin in der Klasse 23f. 
     Mein Schwerpunktfach ist PPP. 
     In meiner Freizeit spiele ich Tennis und lese gerne.
   icons:
@@ -38,7 +38,7 @@ lindawüthrich:
   image: Linda Wüthrich.jpg
 matthewhaldimann:
   name: Matthew Haldimann
-  position: Webseite & Allgemeinwissen
+  position: Allgemeinwissen & Webseite
   bio: |
     Ich bin 16 Jahre alt, bin in der Klasse 23h und habe das Schwerpunktfach PAM. 
     Meine Hobbys sind Schach, Schwimmen und Leichtathletik.  
@@ -63,7 +63,7 @@ mirjamgurtner:
   image: Mirjam Gurtner.jpg
 nadjabühler:
   name: Nadja Bühler
-  position: Design & Beiträge
+  position: Fun
   bio: |
     Ich bin 16 Jahre alt, bin in der Klasse 23d und besuche den Gymer mit dem Schwerpunktfach Spanisch und Immersion Französisch.
     In meiner Freizeit spiele ich Geige und voltigiere.
@@ -77,7 +77,7 @@ nadjabühler:
   image: Nadja Bühler.jpg
 rafaelurben:
   name: Rafael Urben
-  position: IT, Sekretariat, Korrektur & Instagram
+  position: Webseite, Korrektur, Sekretariat & IT
   bio: |
     Ich bin 17 Jahre alt und besuche die Klasse 23h mit dem Schwerpunktfach PAM. 
     In meiner Freizeit spiele ich die Basler Trommel und verbringe meine Zeit sehr gerne am Computer.
