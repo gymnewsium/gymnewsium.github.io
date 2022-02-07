@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-permalink: /:categories/:title
+permalink: /:categories/:title/
 url: https://gymnewsium.ch
 # paginate: 10
 # paginate_path: "/archiv/page:num/"
@@ -8,7 +8,7 @@ plugins:
   - jekyll-last-modified
 page_excerpts: true
 enable_subposts: true
-exclude: [vendor, README.md, README-gh-pages.md, LICENSE, Gemfile, Gemfile.lock]
+exclude: [vendor, README.md, README-gh-pages.md, LICENSE, Gemfile, Gemfile.lock, CNAME]
 title: gymNEWSium
 description: Eine unabhängige Gymerzeitung aus Burgdorf
 copyright: 2021 Verein gymNEWSium, Burgdorf
