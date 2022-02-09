@@ -31,11 +31,14 @@ Was spricht dafür?
 
 Der Bundesrat und das Parlament sind der Meinung, dass durch die Unterstützung einheimischer kleiner und mittlerer Medien eine originelle lokale und regionale Berichterstattung gestärkt wird, indem die Redaktionen finanziell entlastet werden und sich somit mehr auf guten Journalismus fokussieren können. Auch stärke das Medienpaket indirekt den gesellschaftlichen Zusammenhalt und die Meinungsbildung unserer direkten Demokratie.
 
+![Flyer "Ohne Medien keine Demokratie"](https://ja-zur-medienvielfalt.ch/wp-content/uploads/2021/12/sharing-image-4.jpg)
+![Flyer "Keine Steuermilliarden für Medienmillionäre"](https://medien-massnahmenpaket-nein.ch/wp-content/uploads/2021/12/Head_1440_DE@2x-scaled.webp)
+
 ### Quellen
 
-- <https://www.uvek.admin.ch/uvek/de/home/uvek/abstimmungen/medienpaket.html>
+- <https://www.uvek.admin.ch/uvek/de/home/uvek/abstimmungen/medienpaket.html> und Unterseiten
 - <https://www.uvek.admin.ch/uvek/de/home/uvek/abstimmungen/medienpaket/faq.html>
 - <https://www.srf.ch/news/abstimmungen-13-februar-2022/massnahmenpaket-medien/abstimmungs-arena-medienpaket-streit-um-profiteure-und-unabhaengigkeit>
 - <https://fedlex.data.admin.ch/eli/fga/2021/1495> (Abstimmungstext)
-- <https://ja-zur-medienvielfalt.ch/>
-- <https://medien-massnahmenpaket-nein.ch>
+- <https://medien-massnahmenpaket-nein.ch/wp-content/uploads/2021/12/Head_1440_DE@2x-scaled.webp>
+- <https://ja-zur-medienvielfalt.ch/wp-content/uploads/2021/12/sharing-image-4.jpg>
