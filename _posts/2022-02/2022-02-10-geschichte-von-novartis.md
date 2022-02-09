@@ -19,3 +19,4 @@ Novartis stellt Medikamente zum Schutz der Gesundheit und der Heilung von Krankh
 - <https://familienbewusste-personalpolitik.nuernberg.de/good-practices/unternehmen-in-der-metropolregion-nuernberg/novartis>
 - <https://www.novartis.de/geschichten/wir/novartis-ein-vierteljahrhundert-innovation>
 - <https://de.wikipedia.org/wiki/Novartis#Entwicklungen_seit_der_Fusion>
+- <https://www.novartis.ch/de>

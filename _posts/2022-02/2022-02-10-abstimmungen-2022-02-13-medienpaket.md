@@ -37,3 +37,5 @@ Der Bundesrat und das Parlament sind der Meinung, dass durch die Unterstützung 
 - <https://www.uvek.admin.ch/uvek/de/home/uvek/abstimmungen/medienpaket/faq.html>
 - <https://www.srf.ch/news/abstimmungen-13-februar-2022/massnahmenpaket-medien/abstimmungs-arena-medienpaket-streit-um-profiteure-und-unabhaengigkeit>
 - <https://fedlex.data.admin.ch/eli/fga/2021/1495> (Abstimmungstext)
+- <https://ja-zur-medienvielfalt.ch/>
+- <https://medien-massnahmenpaket-nein.ch>
