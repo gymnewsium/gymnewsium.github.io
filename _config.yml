@@ -53,8 +53,14 @@ defaults:
       type: "posts"
     values:
       excerpt_separator: "<!--more-->"
+      searchable: true
   -
     scope:
       path: "modules"
     values:
       sitemap: false
+  -
+    scope:
+      path: "pages"
+    values:
+      searchable: true

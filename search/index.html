@@ -1,0 +1,50 @@
+---
+layout: default
+title: Suche
+description: Eine einfache Suchfunktion
+searchable: false
+sitemap: false
+---
+
+<style>
+    #search-input {
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+        border: 1px solid #1E6ADD;
+    }
+
+    #results-container {
+        padding-top: 15px;
+    }
+</style>
+
+<!-- Search form -->
+<div class="container">
+    <div class="row">
+        <div class="col mt-5">
+            <div class="input-group mb-3">
+                <input id="search-input" type="text" class="form-control" placeholder="Suchbegriff eingeben...">
+                <span class="input-group-text" aria-hidden="true">
+                    <i class="fas fa-search text-grey"></i>
+                </span>
+            </div>
+
+            <ul id="results-container" class="list-group">
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<li class="list-group-item"><span><a href="{url}">{title}</a></span></li>',
+        noResultsText: '<li class="list-group-item">Diese Suche ergab leider keine Treffer.</li>',
+        fuzzy: false,
+        limit: 25,
+        json: '/search/content.json'
+    });
+</script>
