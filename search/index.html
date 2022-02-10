@@ -41,7 +41,7 @@ sitemap: false
     SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        searchResultTemplate: '<li class="list-group-item"><span><a href="{url}">{title}</a></span></li>',
+        searchResultTemplate: '<li class="list-group-item"><span><b><a href="{url}">{title}</a></b> - {description}</span></li>',
         noResultsText: '<li class="list-group-item">Diese Suche ergab leider keine Treffer.</li>',
         fuzzy: false,
         limit: 25,
