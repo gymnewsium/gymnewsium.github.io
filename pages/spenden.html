@@ -1,0 +1,78 @@
+---
+permalink: /spenden/
+layout: default
+title: Spenden
+description: Unterstütze uns mit einer Spende
+last_modified_at: 2021-11-23 18:00:00 +0100
+---
+
+<br class="mb-1">
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p>
+                Vielen Dank, dass du uns mit einer Spende unterstützen möchtest! Mit deiner Spende 
+                unterstützt du unseren Verein.
+            </p>
+            <h3 class="my-5">Infos</h3>
+            <div class="accordion" id="infos">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#collapseOne">
+                            Verwendung der Spenden
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Wir verwenden Spenden, um gedruckte Ausgaben zu finanzieren und weiterhin ein kostenloses Angebot anbieten zu können.
+                            Ausserdem können wir dadurch diverse Unkosten wie z.B. Domain- und Hosting-Gebühren finanzieren.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo">
+                            Bei Auflösung des Vereins
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Ausschnitt aus unseren Statuten:</strong> Bei einer Auflösung des Vereins fällt das Vereinsvermögen an steuerbefreite Organisationen, welche einen gemeinnützigen
+                            Zweck verfolgen. Die Verteilung des Vereinsvermögens unter den Mitgliedern ist ausgeschlossen.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree">
+                            Verarbeitung von Daten
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Personenbezogene Daten werden gemäss unserer <a class="link-primary" href="/datenschutz/">Datenschutzerklärung</a> verarbeitet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="my-5">Spendenformular</h3>
+            <div class="rnw-widget-container"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://tamaro.raisenow.com/gymne-150c/latest/widget.js"></script>  
+<script>
+    window.rnw.tamaro.runWidget('.rnw-widget-container', {
+        language: "de",
+        amounts: [
+            {
+                "if": "paymentType() == onetime",
+                "then": [5, 10, 15, 20],
+            },
+        ],
+    })
+</script>
