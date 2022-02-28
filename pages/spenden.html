@@ -17,7 +17,7 @@ last_modified_at: 2021-11-23 18:00:00 +0100
             <h3 class="my-5">Infos</h3>
             <div class="accordion" id="infos">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
+                    <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" 
                             data-bs-target="#collapseOne">
                             Verwendung der Spenden
@@ -31,7 +31,7 @@ last_modified_at: 2021-11-23 18:00:00 +0100
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
+                    <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo">
                             Bei Auflösung des Vereins
@@ -45,7 +45,7 @@ last_modified_at: 2021-11-23 18:00:00 +0100
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree">
                             Verarbeitung von Daten
@@ -54,6 +54,20 @@ last_modified_at: 2021-11-23 18:00:00 +0100
                     <div id="collapseThree" class="accordion-collapse collapse">
                         <div class="accordion-body">
                             Personenbezogene Daten werden gemäss unserer <a class="link-primary" href="/datenschutz/">Datenschutzerklärung</a> verarbeitet.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour">
+                            Spendenbescheiningung
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Bitte beachte, dass wir zurzeit
+                            <b>keine Spendenbescheiningungen</b> ausstellen können.
                         </div>
                     </div>
                 </div>
@@ -74,5 +88,11 @@ last_modified_at: 2021-11-23 18:00:00 +0100
                 "then": [5, 10, 15, 20],
             },
         ],
+    })
+
+    window.rnw.tamaro.events.afterRender.subscribe(event => {
+        setTimeout(() => {
+            document.querySelector(".stored_customer_donation_receipt").hidden = true;
+        }, 100);
     })
 </script>
