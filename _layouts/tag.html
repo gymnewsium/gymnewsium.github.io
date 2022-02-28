@@ -1,14 +1,6 @@
 ---
-layout: default
-header_image: archiv.jpg
+layout: container
 ---
 
-<br class="mb-1">
-<div class="container">
-    <div class="row">
-        <div class="col">
-            {% assign posts = site.tags[page.tag] %}
-            {% include postlist.html posts=posts %}
-        </div>
-    </div>
-</div>
+{% assign posts = site.tags[page.tag] %}
+{% include postlist.html posts=posts %}

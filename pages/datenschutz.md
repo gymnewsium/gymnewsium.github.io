@@ -1,6 +1,6 @@
 ---
 permalink: /datenschutz/
-layout: default
+layout: container
 title: Datenschutzerklärung
 description: Infos über den Datenschutz
 noindex: true
