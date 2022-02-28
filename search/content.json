@@ -1,0 +1,36 @@
+---
+---
+
+{% assign counter = 0 %}
+{% assign maxCount = 0 %}
+
+{% for p in site.pages %}{% if p.searchable %}
+{% assign maxCount=maxCount | plus:1 %}
+{% endif %}{% endfor %}
+{% for p in site.posts %}{% if p.searchable %}
+{% assign maxCount=maxCount | plus:1 %}
+{% endif %}{% endfor %}
+
+[
+  {% for p in site.pages %}{% if p.searchable %}
+  {% assign counter=counter | plus:1 %}
+    {
+      "title"   : {{ p.title | jsonify }},
+      "description": {{ p.description | jsonify }},
+      "url"     : "{{ p.permalink }}",
+      "content" : {{ p.content | strip_html | jsonify }},
+      "excerpt" : {{ p.excerpt | jsonify }}
+    } {% if counter < maxCount %},{% endif %}
+  {% endif %}{% endfor %}
+
+  {% for p in site.posts %}{% if p.searchable %}
+  {% assign counter=counter | plus:1 %}
+    {
+      "title"   : {{ p.title | jsonify }},
+      "description": {{ p.description | jsonify }},
+      "url"     : "{{ p.url }}",
+      "content" : {{ p.content | strip_html | jsonify }},
+      "excerpt" : {{ p.excerpt | jsonify }}
+    } {% if counter < maxCount %},{% endif %}
+  {% endif %}{% endfor %}
+]
