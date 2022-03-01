@@ -2,7 +2,7 @@
 permalink: /spenden/
 layout: default
 title: Spenden
-description: Unterstütze uns mit einer Spende
+description: Vielen Dank für die Unterstützung!
 last_modified_at: 2021-11-23 18:00:00 +0100
 ---
 
@@ -11,10 +11,9 @@ last_modified_at: 2021-11-23 18:00:00 +0100
     <div class="row">
         <div class="col">
             <p>
-                Vielen Dank, dass du uns mit einer Spende unterstützen möchtest! Mit deiner Spende 
-                unterstützt du unseren Verein.
+                Vielen Dank für die finanzielle Unterstützung!
             </p>
-            <h3 class="my-5">Infos</h3>
+            <h3 class="my-4">Infos</h3>
             <div class="accordion" id="infos">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -34,7 +33,7 @@ last_modified_at: 2021-11-23 18:00:00 +0100
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo">
-                            Bei Auflösung des Vereins
+                            Auflösung des Vereins
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse">
@@ -66,13 +65,13 @@ last_modified_at: 2021-11-23 18:00:00 +0100
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            Bitte beachte, dass wir zurzeit
-                            <b>keine Spendenbescheiningungen</b> ausstellen können.
+                            Achtung: Wir können zurzeit
+                            <b>keine Spendenbescheiningungen</b> ausstellen.
                         </div>
                     </div>
                 </div>
             </div>
-            <h3 class="my-5">Spendenformular</h3>
+            <h3 class="my-4">Spendenformular</h3>
             <div class="rnw-widget-container"></div>
         </div>
     </div>
@@ -88,6 +87,20 @@ last_modified_at: 2021-11-23 18:00:00 +0100
                 "then": [5, 10, 15, 20],
             },
         ],
+        minimumCustomAmount: 1.5,
+        translations: {
+            de: {
+                blocks: {
+                    overlay_data_protection_policy: {
+                        "title": "Datenschutzbestimmungen",
+                        "close_label": "Dialog schliessen",
+                        "text_html": "<section>\n<p>Die Übermittlung der Daten erfolgt verschlüsselt. %% trans(organization_name) %% speichert selbst keine Kartendaten, die Zahlungsdaten laufen direkt über RaiseNow, einem von der Kreditkartenindustrie (PCI DSS) zertifizierten Partner. Unsere Dienstleister dürfen die Informationen ausschliesslich zur Erfüllung ihrer Aufgaben nutzen und sind verpflichtet, die Datenschutzbestimmungen einzuhalten.</p>\n" +
+                                    //  "<p>Sie können Ihre Spende von Ihrem steuerbaren Einkommen abziehen. Spender erhalten per E-Mail eine Spendenbestätigung zu Handen der Steuerbehörden.</p>\n" +
+                                     "<p>Die Spende wird vom Verein FairGive treuhänderisch entgegengenommen und direkt an %% trans(organization_name) %% weitergeleitet.</p>\n</section>\n"
+                    },
+                }
+            }
+        }
     })
 
     window.rnw.tamaro.events.afterRender.subscribe(event => {
