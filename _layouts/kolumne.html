@@ -1,0 +1,57 @@
+---
+layout: base
+---
+
+<header id="header" class="masthead" style="margin-bottom: 0;">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                <div class="post-heading pb-5">
+                    <h1>{{ page.title }}</h1>
+                    <h2 class="subheading">{{ page.description }}</h2>
+                    <span class="meta">
+                        Veröffentlicht am <span class="text-white">{{ page.date | date: "%d.%m.%Y" }}</span>
+
+                        {% if page.category and site.categorylist[page.category] %}
+                            in <a class="categorylink" href="{{ site.categorylist[page.category].url }}">
+                                {{ site.categorylist[page.category].title }}
+                            </a>
+                        {% endif %}
+                        <br>
+                        {% unless page.tags == empty %}
+                            <div class="tags mt-2">
+                                Tags:
+                                {% for tag in page.tags %}{% if site.taglist[tag] %}
+                                <a class="taglink" href="{{ site.taglist[tag].url }}">{{ site.taglist[tag].title }}</a>{% unless forloop.last %},{% endunless %}
+                                {% endif %}{% endfor %}
+                            </div>
+                        {% endunless %}
+                        {% if page.author %}
+                            <div class="author mt-2">
+                                Autor:
+                                <a class="authorlink" target="_blank" href="{{ page.authorurl }}">
+                                    {{ page.author }}
+                                </a>
+                            </div>
+                        {% endif %}
+                    </span>
+                    <div class="alert alert-warning my-5" role="alert">
+                        <b>Hinweis:</b> Dies ist eine Kolumne. Kolumnen werden nicht von der gymNEWSium Redaktion geschrieben und wir übernehmen keine Verantwortung
+                        für deren Inhalt. Mehr Informationen über Kolumnen befinden sich <a class="alert-link text-decoration-underline" href="/kolumnen/info/">hier</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</article>

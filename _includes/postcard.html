@@ -34,7 +34,11 @@
     <div class="card-footer text-muted">
         {{ post.date | date: "%d.%m.%Y" }}
         {% if post.author %}
-        - <a href="/about#p-{{ post.author }}">{{ site.data.team[post.author].name }}</a>
+            {% if site.data.team[post.author] %}
+                - <a href="/about#p-{{ post.author }}">{{ site.data.team[post.author].name }}</a>
+            {% else %}
+                - <a href="{{ post.authorurl }}">{{ post.author }}</a>
+            {% endif %}
         {% endif %}
     </div>
 </div>
