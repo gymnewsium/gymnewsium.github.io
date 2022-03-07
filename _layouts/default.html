@@ -7,9 +7,10 @@ layout: base
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto position-relative">
-                <div class="site-heading">
+                <div class="site-heading{% if page.alerts %} pb-3{% endif %}">
                     <h1>{{ page.title }}</h1>
                     <h2 class="subheading">{{ page.description }}</h2>
+                    {% include alerts.html alerts=page.alerts %}
                 </div>
             </div>
         </div>

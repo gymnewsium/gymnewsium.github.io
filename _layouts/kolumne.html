@@ -7,7 +7,7 @@ layout: base
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto position-relative">
-                <div class="post-heading pb-5">
+                <div class="post-heading pb-3">
                     <h1>{{ page.title }}</h1>
                     <h2 class="subheading">{{ page.description }}</h2>
                     <span class="meta">
@@ -36,10 +36,7 @@ layout: base
                             </div>
                         {% endif %}
                     </span>
-                    <div class="alert alert-warning my-5" role="alert">
-                        <b>Hinweis:</b> Dies ist eine Kolumne. Kolumnen werden nicht von der gymNEWSium Redaktion geschrieben und wir übernehmen keine Verantwortung
-                        für deren Inhalt. Mehr Informationen über Kolumnen befinden sich <a class="alert-link text-decoration-underline" href="/kolumnen/info/">hier</a>.
-                    </div>
+                    {% include alerts.html alerts=page.alerts %}
                 </div>
             </div>
         </div>

@@ -3,11 +3,13 @@ permalink: /kolumnen/info/
 layout: container
 title: Kolumnen
 description: Infos über Kolumnen bei gymNEWSium
+alerts:
+  - 
+    type: info
+    title: Hinweis
+    text: |-
+      Hier befinden sich Infos über die Kolumnen. <a class="alert-link text-decoration-underline" href="/kolumnen/">Zu den Kolumnen</a>.
 ---
-
-<div class="alert alert-info mb-5 mt-4" role="alert">
-    <b>Hinweis:</b> Hier befinden sich Infos über die Kolumnen. Zu den Kolumnen geht's <a class="alert-link text-decoration-underline" href="/kolumnen/">hier entlang</a>.
-</div>
 
 ### Was sind Kolumnen?
 
