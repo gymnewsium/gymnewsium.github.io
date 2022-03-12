@@ -1,3 +1,7 @@
+.justify-article p {
+    text-align: justify;
+}
+
 /* Post */
 
 .meta {
