@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="container-fluid p-2 p-md-3 p-lg-4 p-xl-5">
+    <div class="row" id="gallery">
+        <p>Bilder werden geladen...</p>
+    </div>
+</div>
+
+<script>
+    const galleryjsonurl = '{{ page.galleryjsonurl }}';
+    const galleryelem = document.getElementById('gallery');
+
+    function generateGallery(json) {
+        let colcount = 4;
+        var cols = [];
+        for (var i = 0; i < colcount; i++) {
+            let elem = document.createElement('div');
+            elem.className = 'col-sm-6 col-lg-4 col-xl-3';
+            galleryelem.appendChild(elem);
+            cols.push(elem);
+        }
+
+        var colindex = 0;
+
+        // Generate gallery
+        json.images.forEach(function (item) {
+            const elem = document.createElement('div');
+            elem.className = 'w-100';
+            elem.innerHTML = `
+                <figure class="figure w-100">
+                    <img src="${item.url}" class="figure-img img-fluid w-100 rounded" alt="${item.alt}">
+                    <figcaption class="figure-caption">${item.caption || "von " + item.author}</figcaption>
+                </figure>
+            `;
+
+            cols[colindex % colcount].appendChild(elem);
+            colindex++;
+        });
+    };
+
+    window.addEventListener('load', function() {
+        console.log("Loading images...")
+        // Load the gallery json
+        fetch(galleryjsonurl)
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(json) {
+                // Create the gallery
+                console.log(json);
+                galleryelem.innerHTML = "";
+                generateGallery(json);
+            });
+        });
+</script>
