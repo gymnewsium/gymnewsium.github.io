@@ -21,6 +21,10 @@ categorylist:
     title: Artikel
     singulartitle: Artikel
     url: /articles/
+  kolumnen:
+    title: Kolumnen
+    singulartitle: Kolumne
+    url: /kolumnen/
   releases:
     title: Ausgaben
     singulartitle: Ausgabe
@@ -64,3 +68,14 @@ defaults:
       path: "pages"
     values:
       searchable: true
+  -
+    scope:
+      path: "_posts/kolumnen"
+    values:
+      authorurl: mailto:kolumnen@gymnewsium.ch?subject=%5BKolumnen%5D%20Kontaktanfrage
+      alerts:
+        - 
+          type: warning
+          title: Hinweis
+          text: |-
+              Dies ist eine Kolumne. Kolumnen werden nicht von der gymNEWSium Redaktion geschrieben und wir übernehmen keine Verantwortung für deren Inhalt. Mehr Informationen über Kolumnen befinden sich <a class="alert-link text-decoration-underline" href="/kolumnen/info/">hier</a>.

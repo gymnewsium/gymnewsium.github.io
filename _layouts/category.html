@@ -2,5 +2,7 @@
 layout: container
 ---
 
+{{ content }}
+
 {% assign posts = site.categories[page.category] %}
 {% include postlist.html posts=posts %}

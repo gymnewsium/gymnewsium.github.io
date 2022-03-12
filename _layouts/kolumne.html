@@ -7,7 +7,7 @@ layout: base
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto position-relative">
-                <div class="post-heading">
+                <div class="post-heading pb-3">
                     <h1>{{ page.title }}</h1>
                     <h2 class="subheading">{{ page.description }}</h2>
                     <span class="meta">
@@ -27,16 +27,16 @@ layout: base
                                 {% endif %}{% endfor %}
                             </div>
                         {% endunless %}
-                        {% if page.author and site.data.team[page.author] %}
-                            {% assign author = site.data.team[page.author] %}
+                        {% if page.author %}
                             <div class="author mt-2">
                                 Autor:
-                                <a class="authorlink" href="/about#p-{{ page.author }}">
-                                    {{ author.name }}
+                                <a class="authorlink" target="_blank" href="{{ page.authorurl }}">
+                                    {{ page.author }}
                                 </a>
                             </div>
                         {% endif %}
                     </span>
+                    {% include alerts.html alerts=page.alerts %}
                 </div>
             </div>
         </div>
@@ -48,34 +48,6 @@ layout: base
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto justify-article">
                 {{ content }}
-
-                {% if page.download %}
-                    <a href="{{ page.download }}" class="btn btn-primary" target="_blank" role="button">Herunterladen</a>
-                {% endif %}
-
-                {% if page.pdfembed %}
-                    <a href="#pdfviewer" onclick="pdfviewerfullscreen();" class="btn btn-primary" role="button">Vollbild</a>
-                    <br>
-                    <br>
-                    {% include pdf.html url=page.pdfembed %}
-                    <style>
-                        iframe.pdf {
-                            width: 100%; 
-                            height: 90vh;
-                        }
-                    </style>
-                {% endif %}
-
-                {% if site.enable_subposts %}
-                    {% assign subposts = site.posts | where:"parent",page.id %}
-                    {% unless subposts == empty %}
-                        <div class="subposts">
-                            <br class="mb-1">
-                            <h2>Einzelveröffentlichungen</h2>
-                            {% include postlist.html posts=subposts %}
-                        </div>
-                    {% endunless %}
-                {% endif %}
             </div>
         </div>
     </div>
