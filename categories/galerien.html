@@ -16,7 +16,7 @@ permalink: /galerien/
         </summary>
         <div class="row">
             {% for gallery in folder.galleries %}
-            <div class="col-xs-6 col-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                 <figure class="figure w-100 mb-0">
                     <a class="position-relative" href="{{ gallery.url }}">
                         <img class="figure-img w-100 rounded hover-effect" src="{{ gallery.img }}" />
