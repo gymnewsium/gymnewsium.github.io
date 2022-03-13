@@ -1,0 +1,37 @@
+---
+layout: page
+category: galerien
+title: Galerien
+description: Fotos von diversen Anlässen
+permalink: /galerien/
+---
+
+<link rel="stylesheet" href="/assets/css/galleryoverview.css">
+
+<div class="container-fluid p-2 p-md-3 p-lg-4 p-xl-5">
+    {% for folder in site.data.gallery_folders %}
+    <details class="galleryfolder" {% if folder.defaultopen %}open{% endif %}>
+        <summary>
+            <span>{{ folder.title }}</span>
+        </summary>
+        <div class="row">
+            {% for gallery in folder.galleries %}
+            <div class="col-xs-6 col-sm-3">
+                <figure class="figure w-100 mb-0">
+                    <a class="position-relative" href="{{ gallery.url }}">
+                        <img class="figure-img w-100 rounded hover-effect" src="{{ gallery.img }}" />
+                        <div class="overlay-content">
+                            <h3>{{ gallery.title }}</h3>
+                            <p>{{ gallery.description }}</p>
+                        </div>
+                    </a>
+                    <figcaption class="figure-caption text-end">
+                        {{ gallery.caption }}
+                    </figcaption>
+                </figure>
+            </div>
+            {% endfor %}
+        </div>
+    </details>
+    {% endfor %}
+</div>

@@ -21,6 +21,10 @@ categorylist:
     title: Artikel
     singulartitle: Artikel
     url: /articles/
+  galerien:
+    title: Galerien
+    singulartitle: Galerie
+    url: /galerien/
   kolumnen:
     title: Kolumnen
     singulartitle: Kolumne
