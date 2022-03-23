@@ -37,10 +37,12 @@ layout: base
             const elem = document.createElement('div');
             elem.className = 'w-100';
             elem.innerHTML = `
-                <figure class="figure w-100">
-                    <img src="${img.url}" class="figure-img img-fluid w-100 rounded" alt="${img.alt}">
-                    <figcaption class="figure-caption">${img.caption || "von " + img.author}</figcaption>
-                </figure>
+                <a href="${img.url}" target="_blank" class="w-100">
+                    <figure class="figure w-100">
+                        <img src="${img.url}" class="figure-img img-fluid w-100 rounded" alt="${img.alt}">
+                        <figcaption class="figure-caption">${img.caption || "von " + img.author}</figcaption>
+                    </figure>
+                </a>
             `;
 
             // figure out which column has the lowest height
