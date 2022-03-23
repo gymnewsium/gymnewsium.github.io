@@ -20,29 +20,36 @@ layout: base
 
     function generateGallery(json) {
         let colcount = 4;
+
         var cols = [];
+        var colheights = [];
         for (var i = 0; i < colcount; i++) {
             let elem = document.createElement('div');
-            elem.className = 'col-sm-6 col-lg-4 col-xl-3';
+            elem.className = 'col-sm-6 col-xl-3';
             galleryelem.appendChild(elem);
             cols.push(elem);
+            colheights.push(0);
         }
 
-        var colindex = 0;
 
         // Generate gallery
-        json.images.forEach(function (item) {
+        json.images.forEach(function (img) {
             const elem = document.createElement('div');
             elem.className = 'w-100';
             elem.innerHTML = `
                 <figure class="figure w-100">
-                    <img src="${item.url}" class="figure-img img-fluid w-100 rounded" alt="${item.alt}">
-                    <figcaption class="figure-caption">${item.caption || "von " + item.author}</figcaption>
+                    <img src="${img.url}" class="figure-img img-fluid w-100 rounded" alt="${img.alt}">
+                    <figcaption class="figure-caption">${img.caption || "von " + img.author}</figcaption>
                 </figure>
             `;
 
-            cols[colindex % colcount].appendChild(elem);
-            colindex++;
+            // figure out which column has the lowest height
+            let minheight = Math.min(...colheights);
+            let minindex = colheights.indexOf(minheight);
+
+            // append to column
+            cols[minindex].appendChild(elem);
+            colheights[minindex] += (1/img.dimensions.ratio);
         });
     };
 
