@@ -1,0 +1,98 @@
+/* Custom style for collapsible details */
+
+details.galleryfolder {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+details.galleryfolder>summary {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    position: sticky;
+    background-color: white;
+}
+
+details.galleryfolder[open]>summary {
+    border-bottom: 1px solid gray;
+    border-radius: 5px 5px 0 0;
+}
+
+details.galleryfolder>summary::marker {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: "\f07b";
+}
+
+details.galleryfolder[open]>summary::marker {
+    content: "\f07c";
+}
+
+details.galleryfolder>summary>span {
+    margin-left: 0.4em;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+details.galleryfolder>div {
+    padding: 20px;
+    display: grid;
+}
+
+details.galleryfolder>div>*:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+details.galleryfolder>div>*:last-child {
+    margin-bottom: 0;
+}
+
+/* Hover effect */
+
+.hover-effect {
+    transition-duration: 0.5s;
+    filter: brightness(1);
+}
+
+a:hover .hover-effect {
+    filter: brightness(0.35);
+}
+
+/* Overlay effect on hover - https://codepen.io/ArnaudBalland/pen/vGZKLr */
+
+.overlay-content {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 20%;
+    /* fade in from top */
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover .overlay-content {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.overlay-content h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.overlay-content p {
+    color: #fff;
+    font-size: 0.8em;
+}

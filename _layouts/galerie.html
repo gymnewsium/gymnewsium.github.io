@@ -1,0 +1,72 @@
+---
+layout: base
+---
+
+{% include post_header.html %}
+
+
+<div class="container-fluid p-2 p-md-3 p-lg-4 p-xl-5">
+
+    {{ content }}
+
+    <div class="row" id="gallery">
+        <p>Bilder werden geladen...</p>
+    </div>
+</div>
+
+<script>
+    const galleryjsonurl = '{{ page.galleryjsonurl }}';
+    const galleryelem = document.getElementById('gallery');
+
+    function generateGallery(json) {
+        let colcount = 4;
+
+        var cols = [];
+        var colheights = [];
+        for (var i = 0; i < colcount; i++) {
+            let elem = document.createElement('div');
+            elem.className = 'col-sm-6 col-xl-3';
+            galleryelem.appendChild(elem);
+            cols.push(elem);
+            colheights.push(0);
+        }
+
+
+        // Generate gallery
+        json.images.forEach(function (img) {
+            const elem = document.createElement('div');
+            elem.className = 'w-100';
+            elem.innerHTML = `
+                <a href="${img.url}" target="_blank" class="w-100">
+                    <figure class="figure w-100">
+                        <img src="${img.url}" class="figure-img img-fluid w-100 rounded" alt="${img.alt}">
+                        <figcaption class="figure-caption">${img.caption || "von " + img.author}</figcaption>
+                    </figure>
+                </a>
+            `;
+
+            // figure out which column has the lowest height
+            let minheight = Math.min(...colheights);
+            let minindex = colheights.indexOf(minheight);
+
+            // append to column
+            cols[minindex].appendChild(elem);
+            colheights[minindex] += (1/img.dimensions.ratio);
+        });
+    };
+
+    window.addEventListener('load', function() {
+        console.log("Loading images...")
+        // Load the gallery json
+        fetch(galleryjsonurl)
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(json) {
+                // Create the gallery
+                console.log(json);
+                galleryelem.innerHTML = "";
+                generateGallery(json);
+            });
+        });
+</script>
