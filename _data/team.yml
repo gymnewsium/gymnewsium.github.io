@@ -23,19 +23,15 @@ ivanhenauer:
   image: Ivan Henauer.jpg
 lindawüthrich:
   name: Linda Wüthrich
-  position: Horsoskope & Diverses
+  position: Mitgründerin
   bio: |
-    Ich bin 16 Jahre alt und bin in der Klasse 23f. 
-    Mein Schwerpunktfach ist PPP. 
-    In meiner Freizeit spiele ich Tennis und lese gerne.
+    Mitgründerin der ersten Stunde und ehemalige Vize-Präsidentin.
   icons:
     -
       icon: fab fa-instagram
       url: https://www.instagram.com/_linda__w_/
-    -
-      icon: fas fa-envelope
-      url: mailto:linda@gymnewsium.ch
   image: Linda Wüthrich.jpg
+  left: true
 matthewhaldimann:
   name: Matthew Haldimann
   position: Allgemeinwissen & Webseite
