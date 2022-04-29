@@ -1,5 +1,4 @@
 davidberner:
-  hidden: true
   name: David Berner
   position: Politik & Instagram
   bio:
@@ -7,6 +6,7 @@ davidberner:
     -
       icon: fas fa-envelope
       url: mailto:david@gymnewsium.ch
+  image: Placeholder.jpg
 ivanhenauer:
   name: Ivan Henauer
   position: Präsident & Layout
