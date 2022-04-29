@@ -46,6 +46,13 @@ matthewhaldimann:
       icon: fas fa-envelope
       url: mailto:matthew@gymnewsium.ch
   image: Matthew Haldimann.jpg
+merisabajramlic:
+  name: Merisa Bajramlic
+  position: Mitgründerin
+  bio: |
+    Mitgründerin der ersten Stunde.
+  image: Placeholder.jpg
+  left: true
 mirjamgurtner:
   name: Mirjam Gurtner
   position: Politik
