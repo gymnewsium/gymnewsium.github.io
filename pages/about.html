@@ -12,29 +12,64 @@ last_modified_at: 2021-11-23 18:00:00 +0100
 <section class="team-boxed">
     <div class="container">
         <div class="intro">
-            <h2 class="text-center">Team</h2>
+            <h2 class="text-center">Aktivmitglieder</h2>
             <p class="text-center">Das kleine aber engagierte Team hinter der inoffiziellen Gymerzeitung Burgdorf</p>
         </div>
         <div id="p-redaktion" class="row justify-content-center people">
             {% for person_hash in site.data.team %}
-            {% assign username = person_hash[0] %}
-            {% assign person = person_hash[1] %}
-            {% unless person.hidden %}
-                <div id="p-{{ username }}" class="col-md-6 col-lg-4 item mb-4">
-                    <div class="box h-100 pb-0">
-                        <img class="rounded-circle" src="/assets/img/team/{{ person.image }}">
-                        <h3 class="name">{{ person.name | split: " " | join: "<br>" }}</h3>
-                        <p class="title">{{ person.position }}</p>
-                        <p class="description">{{ person.bio }}</p>
-                        <div class="social">
-                            {% for icon in person.icons %}
-                            <a href="{{ icon.url }}" target="_blank">
-                                <i class="{{ icon.icon }}"></i>
-                            </a>
-                            {% endfor %}
+                {% assign username = person_hash[0] %}
+                {% assign person = person_hash[1] %}
+                {% unless person.hidden %}
+                    {% unless person.left %}
+                        <div id="p-{{ username }}" class="col-md-6 col-lg-4 item mb-4">
+                            <div class="box h-100 pb-0">
+                                <img class="rounded-circle" src="/assets/img/team/{{ person.image }}">
+                                <h3 class="name">{{ person.name | split: " " | join: "<br>" }}</h3>
+                                <p class="title">{{ person.position }}</p>
+                                <p class="description">{{ person.bio }}</p>
+                                <div class="social">
+                                    {% for icon in person.icons %}
+                                    <a href="{{ icon.url }}" target="_blank">
+                                        <i class="{{ icon.icon }}"></i>
+                                    </a>
+                                    {% endfor %}
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    {% endunless%}
+                {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="team-boxed">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Ehemalige Mitglieder</h2>
+            <p class="text-center">Mitglieder, welche früher Teil unseres Vereines waren.</p>
+        </div>
+        <div class="row justify-content-center people">
+            {% for person_hash in site.data.team %}
+                {% assign username = person_hash[0] %}
+                {% assign person = person_hash[1] %}
+                {% unless person.hidden %}
+                    {% if person.left %}
+                        <div id="p-{{ username }}" class="col-md-6 col-lg-4 item mb-4">
+                            <div class="box h-100 pb-0">
+                                <img class="rounded-circle" src="/assets/img/team/{{ person.image }}">
+                                <h3 class="name">{{ person.name | split: " " | join: "<br>" }}</h3>
+                                <p class="title">{{ person.position }}</p>
+                                <p class="description">{{ person.bio }}</p>
+                                <div class="social">
+                                    {% for icon in person.icons %}
+                                    <a href="{{ icon.url }}" target="_blank">
+                                        <i class="{{ icon.icon }}"></i>
+                                    </a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
                 {% endunless %}
             {% endfor %}
         </div>
