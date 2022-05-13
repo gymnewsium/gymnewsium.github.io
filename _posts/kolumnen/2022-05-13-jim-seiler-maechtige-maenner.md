@@ -1,0 +1,33 @@
+---
+layout: kolumne
+category: kolumnen
+title: Mächtige Männer
+description: Die Sozialisierung der Geschlechter und ihre Auswirkungen
+author: Jim Seiler
+authorurl: mailto:kolumnen@gymnewsium.ch?subject=%5BKolumnen%3A%20Jim%20Seiler%5D%20Kontaktanfrage
+alerts:
+  - 
+    type: warning
+    title: Hinweis
+    text: |-
+        Dies ist eine Kolumne. Kolumnen werden nicht von der gymNEWSium Redaktion geschrieben und wir übernehmen keine Verantwortung für deren Inhalt. Mehr Informationen über Kolumnen befinden sich <a class="alert-link text-decoration-underline" href="/kolumnen/info/">hier</a>.
+  -
+    type: danger
+    title: Triggerwarnung vom Autor
+    text: "Thema: Sexualisierte Gewalt - Beinhaltet queerfeindliche Zitate"
+---
+
+Es war ein Freitagabend und ich am zweiten Bier, manche bereits am dritten. Wir sassen zu acht im Wohnzimmer rum und quatschten. Während ich in meinen Gedanken versank, spürte ich plötzlich wie eine tragische Bedrücktheit über die Abendstimmung schwappte und nun den ganzen Raum füllte. Die Unterhaltung war beim Thema sexuelle Belästigung bzw. Übergriffigkeit gelandet. Ich sass nun da und konnte und wollte mich auch nicht im Gespräch einklinken, während die weiblich gelesenen Personen von dutzenden Erfahrungen berichteten. Vom ungewollten angefasst werden im Club oder Freundeskreis bis zu Menschen, die ihnen auf dem Nachhauseweg nachgepfiffen und Kommentare über ihre Körper gemacht haben. Bei all diesen Übergriffen waren die Täter männlich gelesen.
+
+Dies ist kein Zufall. In der Schule werden weiblich gelesene Menschen darüber aufgeklärt, wie man sich gegen Vergewaltiger verteidigt, während mit den männlich gelesenen nie über Einvernehmlichkeit gesprochen wird. Dies hängt stark mit der Position des Mannes und seinem Rollenbild in unserer Gesellschaft zusammen. Wir leben und leiden im und unter dem informellen Patriarchat. Auch wenn die Überordnung des Mannes nicht mehr im Gesetz verankert ist, wird die Macht von Frauen konstant durch Stereotype und Sexualisierung dekonstruiert, und dadurch eine Überlegenheit des Mannes konstruiert. Zum Beispiel wird erfolgreichen, weiblich gelesenen Menschen oft vorgeworfen, sie hätten sich, auf gut Deutsch, nur zu ihrer Position «hochgefickt». Durch diese Sexualisierung bzw. Reduzierung auf das Sexuelle wird der Person Kompetenz abgesprochen, und Kälte vorgeworfen. Im Stereotype-Content-Modell von 2002 werden an Hand von den Kombinationen der beiden zugeordneten Eigenschaften Wärme und Kompetenz vier verschiedene Arten von Stereotypen vorgestellt. Das Bild einer «traditionellen» Frau, fällt in die Kategorie der paternalistischen Stereotype: Es punktet sehr hoch bei Wärme, also ist führsorglich, emotional, und zärtlich, aber inkompetent. Das Rollenbild des Mannes stellt hier das direkte Gegenteil dar: Der Mann sei rational, selbstständig, stark (emotional sowie körperlich) und Kompetent – über Gefühle zu sprechen, sei jedoch «Frauensache». Da das Kapitalistische System leistungsorientiert ist, ist der soziale Status von der Kompetenz abhängig. Das resultiert in einer Statusungleichheit, bei welcher die Unterlegenheit der Frau konstruiert wird. Das traditionelle Rollenbild Mann wird am offensichtlichsten in Filmen und Werbung dargestellt, aber in die Geschlechterrollen werden wir tagtäglich reingedrängt. Extrembeispiel: Ich werde regelmässig belästigt, ob ich ein Mädchen oder ein Junge sei, und wenn ich mich – eine männliche sozialisierte, nicht-binäre Person – gezwungen fühle, zu sagen, ich sei ein Junge und daraufhin gefragt werde, ob ich denn eine «Schwuchtel» sei, ist das Unterdrückung auf Grund des nicht-entsprechens der Rolle, die sie mir als männlich gelesenen Person traditionell zuteilen. Ähnliche Situationen gibt es auch sehr oft in der Unter- bis Mittelstufe und presst Kinder in das Rollenverhalten.
+
+Nun ist dieses Rollenbild leider ein Teil der Realität. Männlich gelesene Personen bekommen die Rolle des machthabenden Geschlechtes aufgedrängt. Dass sie sich für Mächtig halten, macht sie bereits mächtig. Machtpositionen sind Gift für eine jede Gesellschaft, vor allem wenn nicht versucht wird, den Machthabenden beizubringen, diese nicht auszunützen. Nun basiert aber das traditionelle Männlichkeitsgefühl auf Dominanz, und Dominanz heisst, Macht auszuüben. Dazu kommt, dass Wärme und Empathie nicht den Männern zugeordnet wird. Weinen, Schwäche zeigen oder über diese Gefühle zu sprechen entspricht nicht dem Prinzip der Dominanz, weswegen diese Emotionen einfach weggeschoben werden und sich plötzlich ein blinder Fleck bildet: Eine beschränkte Fähigkeit, sich in andere Menschen hineinzufühlen. Dies sind einige der Gründe, warum sich bei einer Studie der Gfs.bern ergab, dass mindestens 22% der weiblich gelesenen Bevölkerung bereits ungewollten sexuellen Handlungen ausgesetzt waren. Anstatt dass sich mit der männlichen Sozialisierung auseinandergesetzt wird, wird oft versucht, den von Gewalt betroffenen Personen eine Mitschuld vorzuwerfen. Männlich gelesene Menschen haben in einer von Männerstimmen dominierten Gesellschaft das Privileg, mit mehr davon zu kommen, da die Eigengruppe einem häufiger in Schutz nimmt. Im Gebiet der empirischen Gewaltforschung werden Übergriffe als Demonstration und Ausnützung von Macht verstanden. Um sich überlegen zu fühlen, demonstriert der Mann seine Macht. Die Demonstration von Macht ist immer noch in vielen Männern verankert, so sitzen sie breiter, reden Lauter, fallen weiblich gelesenen Menschen öfter ins Wort, machen sich öfter über Minderheiten lustig und werden öfter übergriffig. Auch wenn die männlich sozialisierte Person eher ein\*e Verlierer\*in in der Gesellschaft ist, und eher Ohnmacht als Macht ausstrahlen, werden sie auch häufig übergriffig, da sie sonst nirgends Macht ausüben können und ihr männlicher Selbstwert von Dominanz abhängig ist.
+
+Männer sind nicht von Grund auf böse, aber die Rolle in welche sie hineingepresst werden ist es, und dagegen muss sich aktiv gewehrt werden. Man muss sich seiner Sozialisierung und den Machtverhältnissen bewusst sein.
+
+### Quellen
+
+- [Studie gfs.Bern](https://cockpit.gfsbern.ch/de/cockpit/sexuelle-gewalt-in-der-schweiz/)
+- [Unterwegs in Zürich - Kapitel 6.2. DIE FRAGE DER MITVERANTWORTUNG](https://sotomo.ch/site/wp-content/uploads/2021/05/UnterwegsInZu%CC%88rich_2021-1.pdf)
+- [Gewalt in Paarbeziehungen in der Schweiz - S. 73](https://sotomo.ch/site/wp-content/uploads/2021/11/DAO_GewaltPaarbeziehungenSchweiz.pdf)
+- [Sexuelle oder sexualisierende Gewalt](https://gewalt.terre-des-femmes.ch/sexuelle-oder-sexualisierte-gewalt/)
