@@ -1,4 +1,4 @@
-{% if page.alerts %}
+{% if include.alerts %}
     <br class="my-2">
     {% for alert in include.alerts %}
         <div class="alert alert-{{ alert.type }} my-3" role="alert">

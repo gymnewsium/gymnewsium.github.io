@@ -6,11 +6,6 @@ description: Die Sozialisierung der Geschlechter und ihre Auswirkungen
 author: Jim Seiler
 authorurl: mailto:kolumnen@gymnewsium.ch?subject=%5BKolumnen%3A%20Jim%20Seiler%5D%20Kontaktanfrage
 alerts:
-  - 
-    type: warning
-    title: Hinweis
-    text: |-
-        Dies ist eine Kolumne. Kolumnen werden nicht von der gymNEWSium Redaktion geschrieben und wir übernehmen keine Verantwortung für deren Inhalt. Mehr Informationen über Kolumnen befinden sich <a class="alert-link text-decoration-underline" href="/kolumnen/info/">hier</a>.
   -
     type: danger
     title: Triggerwarnung vom Autor

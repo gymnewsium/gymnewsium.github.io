@@ -77,7 +77,7 @@ defaults:
       path: "_posts/kolumnen"
     values:
       authorurl: mailto:kolumnen@gymnewsium.ch?subject=%5BKolumnen%5D%20Kontaktanfrage
-      alerts:
+      defaultalerts:
         - 
           type: warning
           title: Hinweis
@@ -87,7 +87,8 @@ defaults:
     scope:
       path: "_posts/galerien"
     values:
-      alerts:
+      readbuttontext: "Galerie ansehen"
+      defaultalerts:
         - 
           type: success
           title: Hinweis

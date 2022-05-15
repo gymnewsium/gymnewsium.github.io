@@ -45,7 +45,18 @@
                             </div>
                         {% endif %}
                     </span>
-                    {% include alerts.html alerts=page.alerts %}
+                    {% if page.defaultalerts %}
+                        {% if page.alerts %}
+                            {% assign alerts = page.defaultalerts | concat: page.alerts %}
+                            {% include alerts.html alerts=alerts %}
+                        {% else %}
+                            {% include alerts.html alerts=page.defaultalerts %}
+                        {% endif %}
+                    {% else %}
+                        {% if page.alerts %}
+                            {% include alerts.html alerts=page.alerts %}
+                        {% endif %}
+                    {% endif %}
                 </div>
             </div>
         </div>
