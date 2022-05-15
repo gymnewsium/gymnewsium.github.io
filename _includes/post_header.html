@@ -3,7 +3,7 @@
     <div class="container-lg">
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto position-relative">
-                <div class="post-heading {% if page.alerts %}pb-3{% endif %}">
+                <div class="post-heading {% if page.alerts or page.defaultalerts %}pb-3{% endif %}">
                     <h1>{{ page.title }}</h1>
                     <h2 class="subheading">{{ page.description }}</h2>
                     <span class="meta">
