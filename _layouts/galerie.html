@@ -36,12 +36,17 @@ layout: base
         json.images.forEach(function (img) {
             const elem = document.createElement('div');
             const thumbnailurl = img.thumbnailurl ? img.thumbnailurl : img.url;
+            let caption = img.caption ? img.caption + ' ' : '';
+            if (img.author) {
+                caption += `<small>von ${img.author}</small>`;
+            }
+
             elem.className = 'w-100';
             elem.innerHTML = `
                 <a href="${img.url}" target="_blank" class="w-100">
                     <figure class="figure w-100">
                         <img src="${thumbnailurl}" class="figure-img img-fluid w-100 rounded" alt="${img.alt}">
-                        <figcaption class="figure-caption">${img.caption || "von " + img.author}</figcaption>
+                        <figcaption class="figure-caption">${caption}</figcaption>
                     </figure>
                 </a>
             `;
