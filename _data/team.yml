@@ -55,15 +55,11 @@ merisabajramlic:
   left: true
 mirjamgurtner:
   name: Mirjam Gurtner
-  position: Politik
+  position: Mitgründerin
   bio: |
-    Ich bin 16 Jahre alt, besuche die englische Immersionsklasse 24e und mein Schwerpunktfach ist Musik.
-    In meiner Freizeit spiele ich Querflöte und leite in der Cevi Jungschar Herzogenbuchsee.
-  icons:
-    -
-      icon: fas fa-envelope
-      url: mailto:mirjam@gymnewsium.ch
+    Mitgründerin der ersten Stunde.
   image: Mirjam Gurtner.jpg
+  left: true
 nadjabühler:
   name: Nadja Bühler
   position: Fun
