@@ -36,7 +36,6 @@ details.galleryfolder>summary>span {
 
 details.galleryfolder>div {
     padding: 20px;
-    display: grid;
 }
 
 details.galleryfolder>div>*:not(:last-child) {

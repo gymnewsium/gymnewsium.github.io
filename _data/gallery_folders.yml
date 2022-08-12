@@ -1,3 +1,13 @@
+-
+  title: MULUS
+  defaultopen: true
+  galleries:
+    -
+      title: MULUS 2022
+      description: 18. Mai 2022
+      caption: MULUS 2022
+      url: /galerien/mulus-2022/
+      img: https://img.gymnewsium.ch/mulus-2022/preview.jpg
 - 
   title: Gymball
   defaultopen: true
@@ -7,4 +17,4 @@
       description: 11. März 2022
       caption: Gymball 2022
       url: /galerien/gymball-2022/
-      img: http://img.gymnewsium.ch/gymball-2022/preview.jpg
+      img: https://img.gymnewsium.ch/gymball-2022/preview.jpg
