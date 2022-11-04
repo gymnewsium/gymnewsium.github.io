@@ -1,7 +1,13 @@
 -
-  title: MULUS
+  title: Mottowoche & MULUS
   defaultopen: true
   galleries:
+    -
+      title: Mottowoche 2022
+      description: 9.-13. Mai 2022
+      caption: Mottowoche 2022
+      url: /galerien/mottowoche-2022/
+      img: https://img.gymnewsium.ch/mottowoche-2022/preview.jpg
     -
       title: MULUS 2022
       description: 18. Mai 2022

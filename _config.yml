@@ -11,7 +11,7 @@ enable_subposts: true
 exclude: [vendor, README.md, README-gh-pages.md, LICENSE, Gemfile, Gemfile.lock, CNAME]
 title: gymNEWSium
 description: Eine unabhängige Gymerzeitung aus Burgdorf
-copyright: 2021 Verein gymNEWSium, Burgdorf
+copyright: 2022 gymNEWSium, Burgdorf
 categorylist:
   announcements: 
     title: Ankündigungen
