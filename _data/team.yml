@@ -2,24 +2,17 @@ davidberner:
   name: David Berner
   position: Politik & Instagram
   bio:
-  icons:
-    -
-      icon: fas fa-envelope
-      url: mailto:david@gymnewsium.ch
   image: Placeholder.jpg
 ivanhenauer:
   name: Ivan Henauer
   position: Präsident & Layout
   bio: |
-    Ich bin 18 Jahre alt, befinde mich in der Klasse 23h und habe als Schwerpunktfach Bio/Chemie. 
+    Ich bin 19 Jahre alt, befinde mich in der Klasse 23h und habe als Schwerpunktfach Bio/Chemie. 
     In meiner Freizeit beschäftige ich mich viel mit Kinematographie und Musik.
   icons:
     -
       icon: fab fa-instagram
       url: https://www.instagram.com/ivanovich_300103/
-    -
-      icon: fas fa-envelope
-      url: mailto:ivan@gymnewsium.ch
   image: Ivan Henauer.jpg
 lindawüthrich:
   name: Linda Wüthrich
@@ -36,15 +29,12 @@ matthewhaldimann:
   name: Matthew Haldimann
   position: Allgemeinwissen & Webseite
   bio: |
-    Ich bin 16 Jahre alt, bin in der Klasse 23h und habe das Schwerpunktfach PAM. 
+    Ich bin 17 Jahre alt, bin in der Klasse 23h und habe das Schwerpunktfach PAM. 
     Meine Hobbys sind Schach, Schwimmen und Leichtathletik.  
   icons:
     -
       icon: fab fa-instagram
       url: https://www.instagram.com/_ma7thew_/
-    -
-      icon: fas fa-envelope
-      url: mailto:matthew@gymnewsium.ch
   image: Matthew Haldimann.jpg
 merisabajramlic:
   name: Merisa Bajramlic
@@ -70,9 +60,6 @@ nadjabühler:
     -
       icon: fab fa-instagram
       url: https://www.instagram.com/nad.ja_bu/
-    -
-      icon: fas fa-envelope
-      url: mailto:nadja@gymnewsium.ch
   image: Nadja Bühler.jpg
 rafaelurben:
   name: Rafael Urben
@@ -92,7 +79,7 @@ rafaelurben:
       url: https://www.linkedin.com/in/rafaelurben/
     -
       icon: fas fa-envelope
-      url: mailto:rafael@gymnewsium.ch
+      url: https://go.rafaelurben.ch/mail
   image: Rafael Urben.jpg
 redaktion:
   hidden: true
