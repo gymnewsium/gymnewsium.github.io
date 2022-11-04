@@ -35,7 +35,7 @@ Ausserdem haben wir seit ein paar Wochen ein Spendeformular auf unserer Webseite
 
 ### Zukunft von gymNEWSium
 
-Um die Zukunft von gymNEWSium gewährleisten zu können, sind wir dringend auf der Suche nach neuen Mitgliedern, besonders aus den jüngeren Jahrgängen. Kennt ihr jemand vom Gymnasium Burgdorf, der/die gerne bei uns mitmachen möchte oder gehört selber dazu? [Meldet euch bei uns!](https://go.gymnewsium.ch/email)
+Um die Zukunft von gymNEWSium gewährleisten zu können, sind wir dringend auf der Suche nach neuen Mitgliedern, besonders aus den jüngeren Jahrgängen. Kennt ihr jemand vom Gymnasium Burgdorf, der/die gerne bei uns mitmachen möchte oder gehört selber dazu? [Meldet euch bei uns!](mailto:gymnewsium@tpto.ch)
 
 ### Schlusswort
 

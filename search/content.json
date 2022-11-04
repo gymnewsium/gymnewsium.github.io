@@ -30,7 +30,8 @@
       "description": {{ p.description | jsonify }},
       "url"     : "{{ p.url }}",
       "content" : {{ p.content | strip_html | jsonify }},
-      "excerpt" : {{ p.excerpt | jsonify }}
+      "excerpt" : {{ p.excerpt | jsonify }},
+      "author"  : "{% if site.data.team[p.author] %}{% assign author = site.data.team[p.author] %}{{ author.name }}{% else %}{{ p.author }}{% endif %}"
     } {% if counter < maxCount %},{% endif %}
   {% endif %}{% endfor %}
 ]

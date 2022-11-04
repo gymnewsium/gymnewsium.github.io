@@ -11,7 +11,7 @@ enable_subposts: true
 exclude: [vendor, README.md, README-gh-pages.md, LICENSE, Gemfile, Gemfile.lock, CNAME]
 title: gymNEWSium
 description: Eine unabhängige Gymerzeitung aus Burgdorf
-copyright: 2021 Verein gymNEWSium, Burgdorf
+copyright: 2022 gymNEWSium, Burgdorf
 categorylist:
   announcements: 
     title: Ankündigungen
@@ -76,7 +76,7 @@ defaults:
     scope:
       path: "_posts/kolumnen"
     values:
-      authorurl: mailto:kolumnen@gymnewsium.ch?subject=%5BKolumnen%5D%20Kontaktanfrage
+      authorurl: mailto:gymnewsium@tpto.ch?subject=%5BKolumnen%5D%20Kontaktanfrage
       defaultalerts:
         - 
           type: warning
@@ -94,4 +94,4 @@ defaults:
           title: Hinweis
           text: |-
               E-Mail für Anfragen zur Entfernung und Einreichen von zusätzlichen Bildern:
-              <a href="mailto:medien@gymnewsium.ch">medien@gymnewsium.ch</a>
+              <a href="mailto:gymnewsium@tpto.ch">gymnewsium@tpto.ch</a>
