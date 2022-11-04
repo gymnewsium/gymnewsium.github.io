@@ -76,7 +76,7 @@ defaults:
     scope:
       path: "_posts/kolumnen"
     values:
-      authorurl: mailto:kolumnen@gymnewsium.ch?subject=%5BKolumnen%5D%20Kontaktanfrage
+      authorurl: mailto:gymnewsium@tpto.ch?subject=%5BKolumnen%5D%20Kontaktanfrage
       defaultalerts:
         - 
           type: warning
@@ -94,4 +94,4 @@ defaults:
           title: Hinweis
           text: |-
               E-Mail für Anfragen zur Entfernung und Einreichen von zusätzlichen Bildern:
-              <a href="mailto:medien@gymnewsium.ch">medien@gymnewsium.ch</a>
+              <a href="mailto:gymnewsium@tpto.ch">gymnewsium@tpto.ch</a>

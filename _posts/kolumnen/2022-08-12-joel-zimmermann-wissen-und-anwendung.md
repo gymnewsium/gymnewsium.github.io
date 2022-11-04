@@ -4,7 +4,7 @@ category: kolumnen
 title: Wissen und Anwendung
 description: Von der Unfähigkeit der Gymnasiasten ein Unternehmen aufzubauen und zu führen
 author: Joel Zimmermann
-authorurl: mailto:kolumnen@gymnewsium.ch?subject=%5BKolumnen%3A%20Joel%20Zimmermann%5D%20Kontaktanfrage
+authorurl: mailto:gymnewsium@tpto.ch?subject=%5BKolumnen%3A%20Joel%20Zimmermann%5D%20Kontaktanfrage
 alerts:
   -
     type: info

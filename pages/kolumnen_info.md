@@ -24,7 +24,7 @@ alerts:
 
 Bei Kolumnen handelt es sich bei uns um kleine Gastbeiträge, die eine Meinung äussern oder aus einer bestimmten Sichtweise über ein bestimmtes Thema berichten. Da Kolumnen nicht von der gymNEWSium Redaktion verfasst werden, übernehmen wir für deren Inhalt keine Verantwortung.
 
-E-Mail für (An-)Fragen & Reklamationen: [kolumnen@gymnewsium.ch](mailto:kolumnen@gymnewsium.ch)
+E-Mail für (An-)Fragen & Reklamationen: [gymnewsium@tpto.ch](mailto:gymnewsium@tpto.ch)
 
 ### Wer kann Kolumnen schreiben?
 

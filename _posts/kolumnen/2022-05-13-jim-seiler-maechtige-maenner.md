@@ -4,7 +4,7 @@ category: kolumnen
 title: Mächtige Männer
 description: Die Sozialisierung der Geschlechter und ihre Auswirkungen
 author: Jim Seiler
-authorurl: mailto:kolumnen@gymnewsium.ch?subject=%5BKolumnen%3A%20Jim%20Seiler%5D%20Kontaktanfrage
+authorurl: mailto:gymnewsium@tpto.ch?subject=%5BKolumnen%3A%20Jim%20Seiler%5D%20Kontaktanfrage
 alerts:
   -
     type: danger
