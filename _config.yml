@@ -8,6 +8,7 @@ plugins:
   - jekyll-last-modified
 page_excerpts: true
 enable_subposts: true
+google_site_verification: AXsYv8VFf-r-4a-bUfFDbfO2KgBhhvKMDm2QtjmQ72Y
 exclude: [vendor, README.md, README-gh-pages.md, LICENSE, Gemfile, Gemfile.lock, CNAME]
 title: gymNEWSium
 description: Eine unabhängige Gymerzeitung aus Burgdorf
